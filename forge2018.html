@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- This is the html page for local testing -->
+<head>
+    <meta charset="utf-8">
+    <title>Forge 2018 Test Page</title>
+</head>
+<body>
+
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://s3.amazonaws.com/kleiforums/FORGE2018/background/background.css">
+    <script src="https://s3.amazonaws.com/kleiforums/FORGE2018/background/background.js"></script>
+
+    <link rel="stylesheet" href="https://s3.amazonaws.com/kleiforums/FORGE2018/forge2018.css">
+    <script src="https://s3.amazonaws.com/kleiforums/FORGE2018/assets/moment.min.js"></script>
+    <script src="https://s3.amazonaws.com/kleiforums/FORGE2018/forge2018.js"></script>
+
+    <img class="theforge-logo" title="Don't Starve Together: The Forge" src="https://s3.amazonaws.com/kleiforums/FORGE2018/assets/dst-theforge-logo.png">
+
+    <link rel="stylesheet" href="https://s3.amazonaws.com/kleiforums/FORGE2018/levelprogress/levelprogress.css">
+    <script src="https://s3.amazonaws.com/kleiforums/FORGE2018/levelprogress/levelprogress.js"></script>
+    <div id="forge2018-levelprogress">
+        <script>
+            (function() {
+                var levelprogressUrl = "https://theforge.kleientertainment.com/wins";
+                var levelprogressLastSync = "https://theforge.kleientertainment.com/last_sync";
+                var parent = $('script').last().parent();
+                new LevelProgress(parent, levelprogressUrl, levelprogressLastSync);
+            })();
+        </script>
+    </div>
+
+    <link rel="stylesheet" href="https://s3.amazonaws.com/kleiforums/FORGE2018/leaderboards/leaderboards.css">
+    <script src="https://s3.amazonaws.com/kleiforums/FORGE2018/leaderboards/leaderboards.js"></script>
+    <div id="forge2018-leaderboards">
+        <script>
+            (function() {
+                var leaderboardsUrl = "https://theforge.kleientertainment.com/leaderboards"
+                var parent = $('script').last().parent();
+                new Leaderboards(parent, leaderboardsUrl);
+            })();
+        </script>
+    </div>
+
+    <script src="localization.js"></script>
+
+</body>
+
+</html>
