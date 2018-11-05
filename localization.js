@@ -124,7 +124,7 @@ var loc_strings = {
     "中文": {
         "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
         "locale": "cn",
-        "progress_communityunlocks": "社区解锁",
+        "progress_communityunlocks": "全员解锁进度",
         "progress_bar_title": "进程: %1%",
         "progress_locked": "未解锁",
         "progress_beetletaur": "地狱野猪",
