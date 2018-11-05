@@ -22,10 +22,6 @@ var loc_strings = {
         "leaderboards-title": "Top Teams",
         "leaderboards-loading": "Loading top teams..",
         "leaderboards-noresults": "No results returned.. Try again later",
-        "leaderboards-first": "First Boss",
-        "leaderboards-second": "Second Boss",
-        "leaderboards-third": "Third Boss",
-        "leaderboards-fourth": "Fourth Boss",
         "leaderboards-pos": "%1",
         "leaderboards-time": "Time",
         "leaderboards-seconds": "s",
@@ -89,10 +85,6 @@ var loc_strings = {
         "leaderboards-title": "Melhores Equipas",
         "leaderboards-loading": "A obter equipas..",
         "leaderboards-noresults": "Nenhuns dados obtidos.. Tenta novamente",
-        "leaderboards-first": "Primeiro Boss",
-        "leaderboards-second": "Segundo Boss",
-        "leaderboards-third": "Terceiro Boss",
-        "leaderboards-fourth": "Quarto Boss",
         "leaderboards-pos": "%1",
         "leaderboards-time": "Tempo",
         "leaderboards-seconds": "s",
@@ -128,7 +120,77 @@ var loc_strings = {
         "localization-credits": "Autores das Traduções",
         "localization-help": "Queres ajudar?",
         "localization-helptext": "Queres adicionar a tua língua? Envia um pull request no %1."
-    }
+    },
+    "中文": {
+        "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
+        "locale": "cn",
+        "progress_communityunlocks": "社区解锁",
+        "progress_bar_title": "进程: %1%",
+        "progress_locked": "未解锁",
+        "progress_beetletaur": "地狱野猪",
+        "progress_boarrior": "大熔炉猪战士",
+        "progress_book_elemental": "召唤命令古典 & 螺旋矛",
+        "progress_lavaarena_armor_hpextraheavy": "坚固的大盔甲",
+        "progress_lavaarena_armor_hpdamager": "锯齿状大盔甲",
+        "progress_lavaarena_armor_hprecharger": "丝绸大盔甲",
+        "progress_lavaarena_armor_hppetmastery": "耳语大盔甲",
+        "progress_lavaarena_heavyblade": "铁匠利锋",
+        "progress_lavaarena_firebomb": "结晶岩浆室",
+        "progress_rhinodrill": "钻犀兄弟",
+        "progress_trails": "猪猩",
+        "progress_lastsync": "最近更新 %1",
+        "progress_lastsync_title": "最近更新于 %1",
+        "leaderboards-title": "最佳队伍",
+        "leaderboards-loading": "正在加载最佳队伍..",
+        "leaderboards-noresults": "未能获得结果.. 请稍候再试",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "时间",
+        "leaderboards-seconds": "秒",
+        "leaderboards-deaths": "死亡",
+        "leaderboards-showmore": "显示更多",
+        "leaderboards-showless": "显示更少",
+        "date": {
+            "parentLocale": 'en',
+            "months": '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split('_'),
+            "longDateFormat": {
+                LLL: 'YYYY年M月D日Ah点mm分',
+            },
+            "relativeTime": {
+                future: '%s内',
+                past: '%s前',
+                s: '几秒',
+                ss: '%d 秒',
+                m: '1 分钟',
+                mm: '%d 分钟',
+                h: '1 小时',
+                hh: '%d 小时',
+                d: '1 天',
+                dd: '%d 天',
+                M: '1 个月',
+                MM: '%d 个月',
+                y: '1 年',
+                yy: '%d 年'
+            },
+            "ordinal": function(number, period) {
+                switch (period) {
+                    case 'd':
+                    case 'D':
+                    case 'DDD':
+                        return number + '日';
+                    case 'M':
+                        return number + '月';
+                    case 'w':
+                    case 'W':
+                        return number + '周';
+                    default:
+                        return number;
+                }
+            },
+        },
+        "localization-credits": "本地化人员",
+        "localization-help": "需要帮助吗？",
+        "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
+    },
 }
 
 function LocalizeSetup() {
@@ -298,5 +360,5 @@ function LocalizeSetupFooter() {
     $(footerLeft).append(creditsHtml);
 
     $(footerRight).append("<h1 i18n-text='localization-help'></h1>");
-    $(footerRight).append("<p i18n-text='localization-helptext' i18n-text-argument='<a href=\"https://github.com/kleientertainment/TheGorgeRecipeBook\">github</a>'></p>");
+    $(footerRight).append("<p i18n-text='localization-helptext' i18n-text-argument='<a href=\"https://github.com/kleientertainment/Forge2018StatsPage\">github</a>'></p>");
 }
