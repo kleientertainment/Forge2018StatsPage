@@ -125,7 +125,7 @@ var loc_strings = {
         "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
         "locale": "cn",
         "progress_communityunlocks": "全员解锁进度",
-        "progress_bar_title": "进程: %1%",
+        "progress_bar_title": "进度: %1%",
         "progress_locked": "未解锁",
         "progress_beetletaur": "地狱野猪",
         "progress_boarrior": "大熔炉猪战士",
@@ -148,7 +148,7 @@ var loc_strings = {
         "leaderboards-seconds": "秒",
         "leaderboards-deaths": "死亡",
         "leaderboards-showmore": "显示更多",
-        "leaderboards-showless": "显示更少",
+        "leaderboards-showless": "收起",
         "date": {
             "parentLocale": 'en',
             "months": '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split('_'),
