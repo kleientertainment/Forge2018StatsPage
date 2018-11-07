@@ -250,21 +250,21 @@ var loc_strings = {
         "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
     },
     "Türkçe": {
-        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
+        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>, and Jonixo :)", //hey mom!, hey ata's mom!
         "locale": "tr-TR",
         "progress_communityunlocks": "Topluluk Başarıları",
         "progress_bar_title": "İlerleme: %1%",
         "progress_locked": "Kilitli",
-        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
+        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay, Jonixo's addition "Tekgözlü Domuz Şeytanı"?
         "progress_boarrior": "Ulu Demirhane Savaşdomuzu",
         "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
         "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
-        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh", //?
+        "progress_lavaarena_armor_hpdamager": "Çivili Ulu Zırh",
         "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
         "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
-        "progress_lavaarena_heavyblade": "Demirci Bıçağı",
-        "progress_lavaarena_firebomb": "Kristal Mağma Odası",
-        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting
+        "progress_lavaarena_heavyblade": "Demirci Çekici",
+        "progress_lavaarena_firebomb": "Kristalize Mağma Odası",
+        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting, Jonixo's addition maybe "Kergergekanka" ps. zorladım :D?
         "progress_trails": "Yabangorili",
         "progress_lastsync": "Son güncelleme %1",
         "progress_lastsync_title": "En son %1 tarihinde güncellendi",
