@@ -437,6 +437,69 @@ var loc_strings = {
         "localization-help": "Vous souhaitez aider ?",
         "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
     },
+    "Svenska": {
+        "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
+        "locale": "sv",
+        "progress_communityunlocks": "Gemensamt upplåsta mål",
+        "progress_bar_title": "Förlopp: %1%",
+        "progress_locked": "Låst",
+        "progress_beetletaur": "Infernaliska cyklopsvinet",
+        "progress_boarrior": "Smedjans storkrigare",
+        "progress_book_elemental": "Tillkallelsens lunta & Spiraliska spjutet",
+        "progress_lavaarena_armor_hpextraheavy": "Ståndaktiga storartade rustningen",
+        "progress_lavaarena_armor_hpdamager": "Naggade storartade rustningen",
+        "progress_lavaarena_armor_hprecharger": "Silkeslena storartade rustningen",
+        "progress_lavaarena_armor_hppetmastery": "Viskande storartade rustningen",
+        "progress_lavaarena_heavyblade": "Smedens egg",
+        "progress_lavaarena_firebomb": "Kristalliserad magmakammare",
+        "progress_rhinodrill": "Noshornsnavare",
+        "progress_trails": "Grisilla",
+        "progress_lastsync": "Senast uppdaterad %1",
+        "progress_lastsync_title": "Senast uppdaterad den %1",
+        "leaderboards-title": "Bästa lagen",
+        "leaderboards-loading": "Laddar de bästa lagen..",
+        "leaderboards-noresults": "Inga resultat funna.. Försök igen senare",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tid",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Förluster",
+        "leaderboards-showmore": "Visa fler",
+        "leaderboards-showless": "Visa färre",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Mars_April_Maj_Juni_Juli_Augusti_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'MMMM D, YYYY h:mm A',
+            },
+            "relativeTime": {
+                "future": "om %s",
+                "past": "%s sedan",
+                "s": 'några sekunder',
+                "ss": '%d sekunder',
+                "m": "en minut",
+                "mm": "%d minuter",
+                "h": "en timme",
+                "hh": "%d timmar",
+                "d": "en dag",
+                "dd": "%d dagar",
+                "M": "en månad",
+                "MM": "%d månader",
+                "y": "ett år",
+                "yy": "%d år"
+            },
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? 'e' :
+                    (b === 1) ? 'a' :
+                    (b === 2) ? 'a' :
+                    (b === 3) ? 'e' : 'e';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
+        },
+        "localization-credits": "Lokaliseringsmedverkande",
+        "localization-help": "Vill du hjälpa till?",
+        "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
+    }
 }
 
 function LocalizeSetup() {
