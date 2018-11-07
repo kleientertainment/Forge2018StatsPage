@@ -63,6 +63,189 @@ var loc_strings = {
         "localization-help": "Want to help?",
         "localization-helptext": "Want to add your own language? Submit a pull request on %1."
     },
+    "Français": {
+        "author": "Français par <a href='https://klei.com/'>Klei</a>, Frodeur et Hugy",
+        "locale": "fr-FR",
+        "progress_communityunlocks": "Progression Communautaire",
+        "progress_bar_title": "Progression: %1%",
+        "progress_locked": "Verrouillé",
+        "progress_beetletaur": "Porcyclops Infernal",
+        "progress_boarrior": "Imposant Sanglerrier de la Forge",
+        "progress_book_elemental": "Tome d'invocation & Lance Spirale",
+        "progress_lavaarena_armor_hpextraheavy": "Imposante Armure Inébranlable",
+        "progress_lavaarena_armor_hpdamager": "Imposante Armure D'épine",
+        "progress_lavaarena_armor_hprecharger": "Imposante Armure de Tissoin",
+        "progress_lavaarena_armor_hppetmastery": "Imposante Armure de Domestication",
+        "progress_lavaarena_heavyblade": "Fendoir du Forgeron",
+        "progress_lavaarena_firebomb": "Chambre Magmatique Crystalisée",
+        "progress_rhinodrill": "Perçorhino",
+        "progress_trails": "Sangoriller",
+        "progress_lastsync": "Dernière mise à jour %1",
+        "progress_lastsync_title": "Dernière mise à jour le %1",
+        "leaderboards-title": "Meilleures équipes",
+        "leaderboards-loading": "Chargement des meilleurs équipes..",
+        "leaderboards-noresults": "Aucun résultat. Réessayez plus tard",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Temps",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Morts",
+        "leaderboards-showmore": "Voir plus",
+        "leaderboards-showless": "Voir moins",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Janvier_Février_Mars_Avril_Mai_Juin_Juillet_Août_Septembre_Octobre_Novembre_Décembre'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYY à k:mm',
+            },
+            "relativeTime": {
+                "future": "dans %s",
+                "past": "il y a %s",
+                "s": 'quelques secondes',
+                "ss": '%d secondes',
+                "m": "une minute",
+                "mm": "%d minutes",
+                "h": "une heure",
+                "hh": "%d hours",
+                "d": "un jour",
+                "dd": "%d jours",
+                "M": "un mois",
+                "MM": "%d mois",
+                "y": "un an",
+                "yy": "%d ans"
+            },
+            "ordinal": function(number) {
+                var suffix = "ème";
+                switch (number) {
+                    case 1:
+                        suffix = "er";
+                        break;
+                    case 2:
+                        suffix = "nd";
+                        break;
+                }
+                return number + "<span class='ordinal'>" + suffix + "</span>";
+            }
+        },
+        "localization-credits": "Auteurs des traductions",
+        "localization-help": "Vous souhaitez aider ?",
+        "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
+    },
+    "Nederlands": {
+        "author": "Nederlands door <a href='https://github.com/PassTheWessel'>Wesselgame</a>",
+        "locale": "nl",
+        "progress_communityunlocks": "Gemeenschap Ontgrendelingen",
+        "progress_bar_title": "Progressie: %1%",
+        "progress_locked": "Vergrendeld",
+        "progress_beetletaur": "Hels Swineclops",
+        "progress_boarrior": "Grote Smederij Boarrior",
+        "progress_book_elemental": "Tome van Beckoning & Spiraalvormige Speer",
+        "progress_lavaarena_armor_hpextraheavy": "Standvastig Groot Pantser",
+        "progress_lavaarena_armor_hpdamager": "Gekarteld Groot Pantser",
+        "progress_lavaarena_armor_hprecharger": "Zijden Groot Pantser",
+        "progress_lavaarena_armor_hppetmastery": "Fluisterend Groot Pantser",
+        "progress_lavaarena_heavyblade": "Smid's rand",
+        "progress_lavaarena_firebomb": "Gekristalliseerde magmakamer",
+        "progress_rhinodrill": "Rhinocebros",
+        "progress_trails": "Boarilla",
+        "progress_lastsync": "Laatst bijgewerkt %1",
+        "progress_lastsync_title": "Laatst gijgewerkt op %1",
+        "leaderboards-title": "Beste Teams",
+        "leaderboards-loading": "Beste teams aan het laden..",
+        "leaderboards-noresults": "Geen resultaten gevonden.. Probeer het later opnieuw",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tijd",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Sterfgevallen",
+        "leaderboards-showmore": "Laat meer zien",
+        "leaderboards-showless": "Laat minder zien",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "over %s",
+                "past": "%s geleden",
+                "s": 'een paar seconden',
+                "ss": '%d seconden',
+                "m": "één minuut",
+                "mm": "%d minuten",
+                "h": "één uur",
+                "hh": "%d uur",
+                "d": "één dag",
+                "dd": "%d dagen",
+                "M": "één maand",
+                "MM": "%d maanden",
+                "y": "één jaar",
+                "yy": "%d jaar"
+            },
+            "ordinal": function ( number ) {
+                return number + '<span class="ordinal">' + ( ( number === 1 || number === 8 || number >= 20 ) ? 'ste' : 'de' ) + '</span>';
+            }
+        },
+        "localization-credits": "Localisatie Eer",
+        "localization-help": "Wilt u helpen?",
+        "localization-helptext": "Wilt u uw eigen taal toevoegen? Dien een pull-aanvraag in op %1."
+    },
+    "Norsk bokmål": {
+        "author": "Norsk bokmål av <a href='https://github.com/Fjedjik'>Fjedjik</a>",
+        "locale": "nb",
+        "progress_communityunlocks": "Opplåst av fellesskapet",
+        "progress_bar_title": "Fremgang: %1%",
+        "progress_locked": "Låst",
+        "progress_beetletaur": "Djevelske Svineklopper",
+        "progress_boarrior": "Store Smiesvinkriger",
+        "progress_book_elemental": "Bind av Tegngiving & Sprialspyd",
+        "progress_lavaarena_armor_hpextraheavy": "Stødig Storslått Rustning",
+        "progress_lavaarena_armor_hpdamager": "Skarp Storslått Rustning",
+        "progress_lavaarena_armor_hprecharger": "Myk Storslått Rustning",
+        "progress_lavaarena_armor_hppetmastery": "Hviskende Storslått Rustning",
+        "progress_lavaarena_heavyblade": "Smedens Kant",
+        "progress_lavaarena_firebomb": "Krystallisert Magmakammer",
+        "progress_rhinodrill": "Neshorncebros",
+        "progress_trails": "Griorilla",
+        "progress_lastsync": "Sist oppdatert %1",
+        "progress_lastsync_title": "Sist oppdatert på %1",
+        "leaderboards-title": "Topplagene",
+        "leaderboards-loading": "Laster topplagene..",
+        "leaderboards-noresults": "Fant ingen resultater.. Prøv igjen senere",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tid",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Dødsfall",
+        "leaderboards-showmore": "Vis Mer",
+        "leaderboards-showless": "Vis Mindre",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
+            "longDateFormat": {
+                LLL: 'D. MMMM YYYY [kl.] HH:mm',
+            },
+            "relativeTime": {
+                "future": "om %s",
+                "past": "%s siden",
+                "s": 'noen sekunder',
+                "ss": '%d sekunder',
+                "m": "ett minutt",
+                "mm": "%d minutter",
+                "h": "en time",
+                "hh": "%d timer",
+                "d": "en dag",
+                "dd": "%d dager",
+                "M": "en måned",
+                "MM": "%d måneder",
+                "y": "ett år",
+                "yy": "%d år"
+            },
+            "ordinal": function(number) {
+                return number + ".";
+            },
+        },
+        "localization-credits": "Oversettelsesforfatterne",
+        "localization-help": "Ønsker du å hjelpe?",
+        "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
+    },
     "Português PT": {
         "author": "Português pela <a href='https://klei.com/'>Klei</a>",
         "locale": "pt-PT",
@@ -179,6 +362,132 @@ var loc_strings = {
         "localization-help": "Quer ajudar?",
         "localization-helptext": "Quer adicionar o seu idioma? Envie um pull request em %1."
     },
+    "Svenska": {
+        "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
+        "locale": "sv",
+        "progress_communityunlocks": "Gemensamt upplåsta mål",
+        "progress_bar_title": "Förlopp: %1%",
+        "progress_locked": "Låst",
+        "progress_beetletaur": "Infernaliska cyklopsvinet",
+        "progress_boarrior": "Smedjans storkrigare",
+        "progress_book_elemental": "Tillkallelsens lunta & Spiraliska spjutet",
+        "progress_lavaarena_armor_hpextraheavy": "Ståndaktiga storartade rustningen",
+        "progress_lavaarena_armor_hpdamager": "Naggade storartade rustningen",
+        "progress_lavaarena_armor_hprecharger": "Silkeslena storartade rustningen",
+        "progress_lavaarena_armor_hppetmastery": "Viskande storartade rustningen",
+        "progress_lavaarena_heavyblade": "Smedens egg",
+        "progress_lavaarena_firebomb": "Kristalliserad magmakammare",
+        "progress_rhinodrill": "Noshornsnavare",
+        "progress_trails": "Grisilla",
+        "progress_lastsync": "Senast uppdaterad %1",
+        "progress_lastsync_title": "Senast uppdaterad den %1",
+        "leaderboards-title": "Bästa lagen",
+        "leaderboards-loading": "Laddar de bästa lagen..",
+        "leaderboards-noresults": "Inga resultat funna.. Försök igen senare",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tid",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Förluster",
+        "leaderboards-showmore": "Visa fler",
+        "leaderboards-showless": "Visa färre",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Mars_April_Maj_Juni_Juli_Augusti_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'MMMM D, YYYY h:mm A',
+            },
+            "relativeTime": {
+                "future": "om %s",
+                "past": "%s sedan",
+                "s": 'några sekunder',
+                "ss": '%d sekunder',
+                "m": "en minut",
+                "mm": "%d minuter",
+                "h": "en timme",
+                "hh": "%d timmar",
+                "d": "en dag",
+                "dd": "%d dagar",
+                "M": "en månad",
+                "MM": "%d månader",
+                "y": "ett år",
+                "yy": "%d år"
+            },
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? 'e' :
+                    (b === 1) ? 'a' :
+                    (b === 2) ? 'a' :
+                    (b === 3) ? 'e' : 'e';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
+        },
+        "localization-credits": "Lokaliseringsmedverkande",
+        "localization-help": "Vill du hjälpa till?",
+        "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
+    },
+    "Türkçe": {
+        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
+        "locale": "tr-TR",
+        "progress_communityunlocks": "Topluluk Başarıları",
+        "progress_bar_title": "İlerleme: %1%",
+        "progress_locked": "Kilitli",
+        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
+        "progress_boarrior": "Ulu Demirhane Savaşdomuzu",
+        "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
+        "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
+        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh", //?
+        "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
+        "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
+        "progress_lavaarena_heavyblade": "Demirci Bıçağı",
+        "progress_lavaarena_firebomb": "Kristal Mağma Odası",
+        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting
+        "progress_trails": "Yabangorili",
+        "progress_lastsync": "Son güncelleme %1",
+        "progress_lastsync_title": "En son %1 tarihinde güncellendi",
+        "leaderboards-title": "En İyi Takımlar",
+        "leaderboards-loading": "En iyi takımlar yükleniyor..",
+        "leaderboards-noresults": "Hiç sonuç yok.. Daha sonra tekrar deneyin",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Süre",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Ölümler",
+        "leaderboards-showmore": "Daha Fazla Göster",
+        "leaderboards-showless": "Daha Az Göster",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Auğustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM, YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "%s içinde",
+                "past": "%s önce",
+                "s": 'birkaç saniye',
+                "ss": '%d saniye',
+                "m": "bir dakika",
+                "mm": "%d dakika",
+                "h": "bir saat",
+                "hh": "%d saat",
+                "d": "bir gün",
+                "dd": "%d gün",
+                "M": "bir ay",
+                "MM": "%d ay",
+                "y": "bir yıl",
+                "yy": "%d yıl"
+            },
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? '.' :
+                    (b === 1) ? '\'inci' :
+                    (b === 2) ? '\'nci' :
+                    (b === 3) ? '\'üncü' : '.';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
+        },
+        "localization-credits": "Çeviri Ekipleri",
+        "localization-help": "Yardım etmek ister misin?",
+        "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
+    },
     "中文": {
         "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
         "locale": "cn",
@@ -248,315 +557,6 @@ var loc_strings = {
         "localization-credits": "本地化人员",
         "localization-help": "需要帮助吗？",
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
-    },
-    "Norsk bokmål": {
-        "author": "Norsk bokmål av <a href='https://github.com/Fjedjik'>Fjedjik</a>",
-        "locale": "nb",
-        "progress_communityunlocks": "Opplåst av fellesskapet",
-        "progress_bar_title": "Fremgang: %1%",
-        "progress_locked": "Låst",
-        "progress_beetletaur": "Djevelske Svineklopper",
-        "progress_boarrior": "Store Smiesvinkriger",
-        "progress_book_elemental": "Bind av Tegngiving & Sprialspyd",
-        "progress_lavaarena_armor_hpextraheavy": "Stødig Storslått Rustning",
-        "progress_lavaarena_armor_hpdamager": "Skarp Storslått Rustning",
-        "progress_lavaarena_armor_hprecharger": "Myk Storslått Rustning",
-        "progress_lavaarena_armor_hppetmastery": "Hviskende Storslått Rustning",
-        "progress_lavaarena_heavyblade": "Smedens Kant",
-        "progress_lavaarena_firebomb": "Krystallisert Magmakammer",
-        "progress_rhinodrill": "Neshorncebros",
-        "progress_trails": "Griorilla",
-        "progress_lastsync": "Sist oppdatert %1",
-        "progress_lastsync_title": "Sist oppdatert på %1",
-        "leaderboards-title": "Topplagene",
-        "leaderboards-loading": "Laster topplagene..",
-        "leaderboards-noresults": "Fant ingen resultater.. Prøv igjen senere",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Tid",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Dødsfall",
-        "leaderboards-showmore": "Vis Mer",
-        "leaderboards-showless": "Vis Mindre",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
-            "longDateFormat": {
-                LLL: 'D. MMMM YYYY [kl.] HH:mm',
-            },
-            "relativeTime": {
-                "future": "om %s",
-                "past": "%s siden",
-                "s": 'noen sekunder',
-                "ss": '%d sekunder',
-                "m": "ett minutt",
-                "mm": "%d minutter",
-                "h": "en time",
-                "hh": "%d timer",
-                "d": "en dag",
-                "dd": "%d dager",
-                "M": "en måned",
-                "MM": "%d måneder",
-                "y": "ett år",
-                "yy": "%d år"
-            },
-            "ordinal": function(number) {
-                return number + ".";
-            },
-        },
-        "localization-credits": "Oversettelsesforfatterne",
-        "localization-help": "Ønsker du å hjelpe?",
-        "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
-    },
-    "Türkçe": {
-        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
-        "locale": "tr-TR",
-        "progress_communityunlocks": "Topluluk Başarıları",
-        "progress_bar_title": "İlerleme: %1%",
-        "progress_locked": "Kilitli",
-        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
-        "progress_boarrior": "Ulu Demirhane Savaşdomuzu",
-        "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
-        "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
-        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh", //?
-        "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
-        "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
-        "progress_lavaarena_heavyblade": "Demirci Bıçağı",
-        "progress_lavaarena_firebomb": "Kristal Mağma Odası",
-        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting
-        "progress_trails": "Yabangorili",
-        "progress_lastsync": "Son güncelleme %1",
-        "progress_lastsync_title": "En son %1 tarihinde güncellendi",
-        "leaderboards-title": "En İyi Takımlar",
-        "leaderboards-loading": "En iyi takımlar yükleniyor..",
-        "leaderboards-noresults": "Hiç sonuç yok.. Daha sonra tekrar deneyin",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Süre",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Ölümler",
-        "leaderboards-showmore": "Daha Fazla Göster",
-        "leaderboards-showless": "Daha Az Göster",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Auğustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM, YYYY HH:mm',
-            },
-            "relativeTime": {
-                "future": "%s içinde",
-                "past": "%s önce",
-                "s": 'birkaç saniye',
-                "ss": '%d saniye',
-                "m": "bir dakika",
-                "mm": "%d dakika",
-                "h": "bir saat",
-                "hh": "%d saat",
-                "d": "bir gün",
-                "dd": "%d gün",
-                "M": "bir ay",
-                "MM": "%d ay",
-                "y": "bir yıl",
-                "yy": "%d yıl"
-            },
-            "ordinal": function(number) {
-                var b = number % 10,
-                    output = (~~(number % 100 / 10) === 1) ? '.' :
-                    (b === 1) ? '\'inci' :
-                    (b === 2) ? '\'nci' :
-                    (b === 3) ? '\'üncü' : '.';
-                return number + "<span class='ordinal'>" + output + "</span>";
-            }
-        },
-        "localization-credits": "Çeviri Ekipleri",
-        "localization-help": "Yardım etmek ister misin?",
-        "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
-    },
-    "Français": {
-        "author": "Français par <a href='https://klei.com/'>Klei</a>, Frodeur et Hugy",
-        "locale": "fr-FR",
-        "progress_communityunlocks": "Progression Communautaire",
-        "progress_bar_title": "Progression: %1%",
-        "progress_locked": "Verrouillé",
-        "progress_beetletaur": "Porcyclops Infernal",
-        "progress_boarrior": "Imposant Sanglerrier de la Forge",
-        "progress_book_elemental": "Tome d'invocation & Lance Spirale",
-        "progress_lavaarena_armor_hpextraheavy": "Imposante Armure Inébranlable",
-        "progress_lavaarena_armor_hpdamager": "Imposante Armure D'épine",
-        "progress_lavaarena_armor_hprecharger": "Imposante Armure de Tissoin",
-        "progress_lavaarena_armor_hppetmastery": "Imposante Armure de Domestication",
-        "progress_lavaarena_heavyblade": "Fendoir du Forgeron",
-        "progress_lavaarena_firebomb": "Chambre Magmatique Crystalisée",
-        "progress_rhinodrill": "Perçorhino",
-        "progress_trails": "Sangoriller",
-        "progress_lastsync": "Dernière mise à jour %1",
-        "progress_lastsync_title": "Dernière mise à jour le %1",
-        "leaderboards-title": "Meilleures équipes",
-        "leaderboards-loading": "Chargement des meilleurs équipes..",
-        "leaderboards-noresults": "Aucun résultat. Réessayez plus tard",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Temps",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Morts",
-        "leaderboards-showmore": "Voir plus",
-        "leaderboards-showless": "Voir moins",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Janvier_Février_Mars_Avril_Mai_Juin_Juillet_Août_Septembre_Octobre_Novembre_Décembre'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM YYYY à k:mm',
-            },
-            "relativeTime": {
-                "future": "dans %s",
-                "past": "il y a %s",
-                "s": 'quelques secondes',
-                "ss": '%d secondes',
-                "m": "une minute",
-                "mm": "%d minutes",
-                "h": "une heure",
-                "hh": "%d hours",
-                "d": "un jour",
-                "dd": "%d jours",
-                "M": "un mois",
-                "MM": "%d mois",
-                "y": "un an",
-                "yy": "%d ans"
-            },
-            "ordinal": function(number) {
-                var suffix = "ème";
-                switch (number) {
-                    case 1:
-                        suffix = "er";
-                        break;
-                    case 2:
-                        suffix = "nd";
-                        break;
-                }
-                return number + "<span class='ordinal'>" + suffix + "</span>";
-            }
-        },
-        "localization-credits": "Auteurs des traductions",
-        "localization-help": "Vous souhaitez aider ?",
-        "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
-    },
-    "Svenska": {
-        "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
-        "locale": "sv",
-        "progress_communityunlocks": "Gemensamt upplåsta mål",
-        "progress_bar_title": "Förlopp: %1%",
-        "progress_locked": "Låst",
-        "progress_beetletaur": "Infernaliska cyklopsvinet",
-        "progress_boarrior": "Smedjans storkrigare",
-        "progress_book_elemental": "Tillkallelsens lunta & Spiraliska spjutet",
-        "progress_lavaarena_armor_hpextraheavy": "Ståndaktiga storartade rustningen",
-        "progress_lavaarena_armor_hpdamager": "Naggade storartade rustningen",
-        "progress_lavaarena_armor_hprecharger": "Silkeslena storartade rustningen",
-        "progress_lavaarena_armor_hppetmastery": "Viskande storartade rustningen",
-        "progress_lavaarena_heavyblade": "Smedens egg",
-        "progress_lavaarena_firebomb": "Kristalliserad magmakammare",
-        "progress_rhinodrill": "Noshornsnavare",
-        "progress_trails": "Grisilla",
-        "progress_lastsync": "Senast uppdaterad %1",
-        "progress_lastsync_title": "Senast uppdaterad den %1",
-        "leaderboards-title": "Bästa lagen",
-        "leaderboards-loading": "Laddar de bästa lagen..",
-        "leaderboards-noresults": "Inga resultat funna.. Försök igen senare",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Tid",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Förluster",
-        "leaderboards-showmore": "Visa fler",
-        "leaderboards-showless": "Visa färre",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Januari_Februari_Mars_April_Maj_Juni_Juli_Augusti_September_Oktober_November_December'.split('_'),
-            "longDateFormat": {
-                LLL: 'MMMM D, YYYY h:mm A',
-            },
-            "relativeTime": {
-                "future": "om %s",
-                "past": "%s sedan",
-                "s": 'några sekunder',
-                "ss": '%d sekunder',
-                "m": "en minut",
-                "mm": "%d minuter",
-                "h": "en timme",
-                "hh": "%d timmar",
-                "d": "en dag",
-                "dd": "%d dagar",
-                "M": "en månad",
-                "MM": "%d månader",
-                "y": "ett år",
-                "yy": "%d år"
-            },
-            "ordinal": function(number) {
-                var b = number % 10,
-                    output = (~~(number % 100 / 10) === 1) ? 'e' :
-                    (b === 1) ? 'a' :
-                    (b === 2) ? 'a' :
-                    (b === 3) ? 'e' : 'e';
-                return number + "<span class='ordinal'>" + output + "</span>";
-            }
-        },
-        "localization-credits": "Lokaliseringsmedverkande",
-        "localization-help": "Vill du hjälpa till?",
-        "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
-    }
-    "Nederlands": {
-        "author": "Nederlands door <a href='https://github.com/PassTheWessel'>Wesselgame</a>",
-        "locale": "nl",
-        "progress_communityunlocks": "Gemeenschap Ontgrendelingen",
-        "progress_bar_title": "Progressie: %1%",
-        "progress_locked": "Vergrendeld",
-        "progress_beetletaur": "Hels Swineclops",
-        "progress_boarrior": "Grote Smederij Boarrior",
-        "progress_book_elemental": "Tome van Beckoning & Spiraalvormige Speer",
-        "progress_lavaarena_armor_hpextraheavy": "Standvastig Groot Pantser",
-        "progress_lavaarena_armor_hpdamager": "Gekarteld Groot Pantser",
-        "progress_lavaarena_armor_hprecharger": "Zijden Groot Pantser",
-        "progress_lavaarena_armor_hppetmastery": "Fluisterend Groot Pantser",
-        "progress_lavaarena_heavyblade": "Smid's rand",
-        "progress_lavaarena_firebomb": "Gekristalliseerde magmakamer",
-        "progress_rhinodrill": "Rhinocebros",
-        "progress_trails": "Boarilla",
-        "progress_lastsync": "Laatst bijgewerkt %1",
-        "progress_lastsync_title": "Laatst gijgewerkt op %1",
-        "leaderboards-title": "Beste Teams",
-        "leaderboards-loading": "Beste teams aan het laden..",
-        "leaderboards-noresults": "Geen resultaten gevonden.. Probeer het later opnieuw",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Tijd",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Sterfgevallen",
-        "leaderboards-showmore": "Laat meer zien",
-        "leaderboards-showless": "Laat minder zien",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM YYYY HH:mm',
-            },
-            "relativeTime": {
-                "future": "over %s",
-                "past": "%s geleden",
-                "s": 'een paar seconden',
-                "ss": '%d seconden',
-                "m": "één minuut",
-                "mm": "%d minuten",
-                "h": "één uur",
-                "hh": "%d uur",
-                "d": "één dag",
-                "dd": "%d dagen",
-                "M": "één maand",
-                "MM": "%d maanden",
-                "y": "één jaar",
-                "yy": "%d jaar"
-            },
-            "ordinal": function ( number ) {
-                return number + ( ( number === 1 || number === 8 || number >= 20 ) ? 'ste' : 'de' );
-            }
-        },
-        "localization-credits": "Localisatie Eer",
-        "localization-help": "Wilt u helpen?",
-        "localization-helptext": "Wilt u uw eigen taal toevoegen? Dien een pull-aanvraag in op %1."
     },
 }
 
