@@ -63,6 +63,64 @@ var loc_strings = {
         "localization-help": "Want to help?",
         "localization-helptext": "Want to add your own language? Submit a pull request on %1."
     },
+      "Русский": {
+        "author": "Русский от <a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1240565842'>RLP-Team</a>",
+        "locale": "ru",
+        "progress_communityunlocks": "Открытия сообщества",
+        "progress_bar_title": "Прогресс: %1%",
+        "progress_locked": "Закрыто",
+        "progress_beetletaur": "Инфернальные Свиноклопы",
+        "progress_boarrior": "Великий Боров-воин Кузни",
+        "progress_book_elemental": "Том призыва и Спиральное копье",
+        "progress_lavaarena_armor_hpextraheavy": "Стойкая великая броня",
+        "progress_lavaarena_armor_hpdamager": "Зубчатая великая броня",
+        "progress_lavaarena_armor_hprecharger": "Обитая шёлком великая броня",
+        "progress_lavaarena_armor_hppetmastery": "Великая броня шёпота",
+        "progress_lavaarena_heavyblade": "Грань кузнеца",
+        "progress_lavaarena_firebomb": "Кристаллизованная магматическая камера",
+        "progress_rhinodrill": "Нособраз",
+        "progress_trails": "Борилла",
+        "progress_lastsync": "Обновлено %1",
+        "progress_lastsync_title": "Обновлено %1",
+        "leaderboards-title": "Лучшие команды",
+        "leaderboards-loading": "Загрузка лучших команд..",
+        "leaderboards-noresults": "Безрезультатно.. Попробуйте ещё раз позднее",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Время",
+        "leaderboards-seconds": "с",
+        "leaderboards-deaths": "Смерти",
+        "leaderboards-showmore": "Показать больше",
+        "leaderboards-showless": "Показать меньше",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'января_февраля_марта_апреля_мая_июня_июля_августа_сентября_октября_ноября_декабря'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYYг. в H:mm',
+            },
+            relativeTime : {
+				future : 'через %s',
+				past : '%s назад',
+				s : 'несколько секунд',
+				ss : relativeTimeWithPlural,
+				m : relativeTimeWithPlural,
+				mm : relativeTimeWithPlural,
+				h : 'час',
+				hh : relativeTimeWithPlural,
+				d : 'день',
+				dd : relativeTimeWithPlural,
+				M : 'месяц',
+				MM : relativeTimeWithPlural,
+				y : 'год',
+				yy : relativeTimeWithPlural
+			},
+            "ordinal": function(number) {
+                return number + "";
+            }
+        },
+        "localization-credits": "Авторы перевода",
+        "localization-help": "Желаете помочь?",
+        "localization-helptext": "Хотите добавить свой родной язык? Отправьте свой запрос на %1."
+    },
     "Français": {
         "author": "Français par <a href='https://klei.com/'>Klei</a>, Frodeur et Hugy",
         "locale": "fr-FR",
@@ -726,6 +784,26 @@ function LocalizeArguments(text, arg) {
         }
     }
     return text;
+}
+function plural(word, num) {
+    var forms = word.split('_');
+    return num % 10 === 1 && num % 100 !== 11 ? forms[0] : (num % 10 >= 2 && num % 10 <= 4 && (num % 100 < 10 || num % 100 >= 20) ? forms[1] : forms[2]);
+}
+function relativeTimeWithPlural(number, withoutSuffix, key) {
+    var format = {
+        'ss': withoutSuffix ? 'секунда_секунды_секунд' : 'секунду_секунды_секунд',
+        'mm': withoutSuffix ? 'минута_минуты_минут' : 'минуту_минуты_минут',
+        'hh': 'час_часа_часов',
+        'dd': 'день_дня_дней',
+        'MM': 'месяц_месяца_месяцев',
+        'yy': 'год_года_лет'
+    };
+    if (key === 'm') {
+        return withoutSuffix ? 'минута' : 'минуту';
+    }
+    else {
+        return number + ' ' + plural(format[key], +number);
+    }
 }
 
 function LocalizeSetLanguage(languageKey) {
