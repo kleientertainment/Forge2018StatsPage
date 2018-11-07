@@ -192,7 +192,7 @@ var loc_strings = {
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
     },
     "Norsk bokmål": {
-        "author": "Norsk bokmål av <a href='https://klei.com/'>Klei</a>",
+        "author": "Norsk bokmål av <a href='https://github.com/Fjedjik'>Fjedjik</a>",
         "locale": "nb",
         "progress_communityunlocks": "Opplåst av fellesskapet",
         "progress_bar_title": "Fremgang: %1%",
@@ -241,7 +241,9 @@ var loc_strings = {
                 "y": "ett år",
                 "yy": "%d år"
             },
-            "ordinal": "%d."
+            "ordinal": function (number) {
+                return number + ".";
+            },
         },
         "localization-credits": "Oversettelsesforfatterne",
         "localization-help": "Ønsker du å hjelpe?",
