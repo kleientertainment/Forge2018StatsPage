@@ -383,12 +383,12 @@ var loc_strings = {
 var loc_selected_language = "Svenska";
 var loc_strings = {
     "Svenska": {
-        "author": "Svenska av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
+        "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
         "locale": "sv",
         "progress_communityunlocks": "Gemensamt upplåsta mål",
         "progress_bar_title": "Förlopp: %1%",
         "progress_locked": "Låst",
-        "progress_beetletaur": "Infernaliska svincyklopen",
+        "progress_beetletaur": "Infernaliska cyklopsvinet",
         "progress_boarrior": "Smedjans storkrigare",
         "progress_book_elemental": "Tillkallelsens lunta & Spiraliska spjutet",
         "progress_lavaarena_armor_hpextraheavy": "Ståndaktiga storartade rustningen",
