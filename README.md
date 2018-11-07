@@ -6,7 +6,7 @@ All the strings are in the *localization.js* file. Add your own language by dupl
 
 The key for the language block is what shows on the language selector (*English*, for instance). Write here the **name of your language in its own language** (*English* in English, *Português* in Portuguese, for instance).
 
-The *date* block is used for the moment.js library to format dates according to your own language. If you want, check their (source locales)[https://github.com/moment/moment/tree/develop/src/locale] to see how they set them up for your language.
+The *date* block is used for the moment.js library to format dates according to your own language. If you want, check their [https://github.com/moment/moment/tree/develop/src/locale](source locales) to see how they set them up for your language.
 
 You can open the *forge2018.html* file on your browser to **test your translations** and see if everything works as you want before submitting.
 
