@@ -191,6 +191,62 @@ var loc_strings = {
         "localization-help": "需要帮助吗？",
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
     },
+    "Norsk bokmål": {
+        "author": "Norsk bokmål av <a href='https://klei.com/'>Klei</a>",
+        "locale": "nb",
+        "progress_communityunlocks": "Opplåst av fellesskapet",
+        "progress_bar_title": "Fremgang: %1%",
+        "progress_locked": "Låst",
+        "progress_beetletaur": "Djevelske Svineklopper",
+        "progress_boarrior": "Store Smiesvinkriger",
+        "progress_book_elemental": "Bind av Tegngiving & Sprialspyd",
+        "progress_lavaarena_armor_hpextraheavy": "Stødig Storslått Rustning",
+        "progress_lavaarena_armor_hpdamager": "Skarp Storslått Rustning",
+        "progress_lavaarena_armor_hprecharger": "Myk Storslått Rustning",
+        "progress_lavaarena_armor_hppetmastery": "Hviskende Storslått Rustning",
+        "progress_lavaarena_heavyblade": "Smedens Kant",
+        "progress_lavaarena_firebomb": "Krystallisert Magmakammer",
+        "progress_rhinodrill": "Neshorncebros",
+        "progress_trails": "Griorilla",
+        "progress_lastsync": "Sist oppdatert %1",
+        "progress_lastsync_title": "Sist oppdatert på %1",
+        "leaderboards-title": "Topplagene",
+        "leaderboards-loading": "Laster topplagene..",
+        "leaderboards-noresults": "Fant ingen resultater.. Prøv igjen senere",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tid",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Dødsfall",
+        "leaderboards-showmore": "Vis Mer",
+        "leaderboards-showless": "Vis Mindre",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
+            "longDateFormat": {
+                LLL: 'D. MMMM YYYY [kl.] HH:mm',
+            },
+            "relativeTime": {
+                "future": "om %s",
+                "past": "%s siden",
+                "s": 'noen sekunder',
+                "ss": '%d sekunder',
+                "m": "ett minutt",
+                "mm": "%d minutter",
+                "h": "en time",
+                "hh": "%d timer",
+                "d": "en dag",
+                "dd": "%d dager",
+                "M": "en måned",
+                "MM": "%d måneder",
+                "y": "ett år",
+                "yy": "%d år"
+            },
+            "ordinal": "%d."
+        },
+        "localization-credits": "Oversettelsesforfatterne",
+        "localization-help": "Ønsker du å hjelpe?",
+        "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
+    },
 }
 
 function LocalizeSetup() {
