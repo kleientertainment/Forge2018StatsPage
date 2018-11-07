@@ -63,65 +63,7 @@ var loc_strings = {
         "localization-help": "Want to help?",
         "localization-helptext": "Want to add your own language? Submit a pull request on %1."
     },
-        "Nederlands": {
-        "author": "Nederlands door <a href='https://github.com/PassTheWessel'>Wesselgame</a>",
-        "locale": "nl",
-        "progress_communityunlocks": "Gemeenschap Ontgrendelingen",
-        "progress_bar_title": "Progressie: %1%",
-        "progress_locked": "Vergrendeld",
-        "progress_beetletaur": "Hels Swineclops",
-        "progress_boarrior": "Grote Smederij Boarrior",
-        "progress_book_elemental": "Tome van Beckoning & Spiraalvormige Speer",
-        "progress_lavaarena_armor_hpextraheavy": "Standvastig Groot Pantser",
-        "progress_lavaarena_armor_hpdamager": "Gekarteld Groot Pantser",
-        "progress_lavaarena_armor_hprecharger": "Zijden Groot Pantser",
-        "progress_lavaarena_armor_hppetmastery": "Fluisterend Groot Pantser",
-        "progress_lavaarena_heavyblade": "Smid's rand",
-        "progress_lavaarena_firebomb": "Gekristalliseerde magmakamer",
-        "progress_rhinodrill": "Rhinocebros",
-        "progress_trails": "Boarilla",
-        "progress_lastsync": "Laatst bijgewerkt %1",
-        "progress_lastsync_title": "Laatst gijgewerkt op %1",
-        "leaderboards-title": "Beste Teams",
-        "leaderboards-loading": "Beste teams aan het laden..",
-        "leaderboards-noresults": "Geen resultaten gevonden.. Probeer het later opnieuw",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Tijd",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Sterfgevallen",
-        "leaderboards-showmore": "Laat meer zien",
-        "leaderboards-showless": "Laat minder zien",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM YYYY HH:mm',
-            },
-            "relativeTime": {
-                "future": "over %s",
-                "past": "%s geleden",
-                "s": 'een paar seconden',
-                "ss": '%d seconden',
-                "m": "één minuut",
-                "mm": "%d minuten",
-                "h": "één uur",
-                "hh": "%d uur",
-                "d": "één dag",
-                "dd": "%d dagen",
-                "M": "één maand",
-                "MM": "%d maanden",
-                "y": "één jaar",
-                "yy": "%d jaar"
-            },
-            "ordinal": function ( number ) {
-                return number + ( ( number === 1 || number === 8 || number >= 20 ) ? 'ste' : 'de' );
-            }
-        },
-        "localization-credits": "Localisatie Eer",
-        "localization-help": "Wilt u helpen?",
-        "localization-helptext": "Wilt u uw eigen taal toevoegen? Dien een pull-aanvraag in op %1."
-    },
-    "Português": {
+    "Português PT": {
         "author": "Português pela <a href='https://klei.com/'>Klei</a>",
         "locale": "pt-PT",
         "progress_communityunlocks": "Desbloqueios da Comunidade",
@@ -178,6 +120,64 @@ var loc_strings = {
         "localization-credits": "Autores das Traduções",
         "localization-help": "Queres ajudar?",
         "localization-helptext": "Queres adicionar a tua língua? Envia um pull request no %1."
+    },
+    "Português BR": {
+        "author": "Português pela <a href='https://klei.com/'>Klei</a>",
+        "locale": "pt-BR",
+        "progress_communityunlocks": "Desbloqueios da Comunidade",
+        "progress_bar_title": "Progresso: %1%",
+        "progress_locked": "Bloqueado",
+        "progress_beetletaur": "Suínoclope Infernal",
+        "progress_boarrior": "Grande Javaleiro da Forja",
+        "progress_book_elemental": "Tomo de Encorajamento e Lança Espiral",
+        "progress_lavaarena_armor_hpextraheavy": "Grande Armadura Inabalável",
+        "progress_lavaarena_armor_hpdamager": "Grande Armadura Denteada",
+        "progress_lavaarena_armor_hprecharger": "Grande Armadura Sedosa",
+        "progress_lavaarena_armor_hppetmastery": "Grande Armadura Sussurrante",
+        "progress_lavaarena_heavyblade": "Lâmina do Ferreiro",
+        "progress_lavaarena_firebomb": "Câmara de Magma Cristalizado",
+        "progress_rhinodrill": "Rinocemanos",
+        "progress_trails": "Javarila",
+        "progress_lastsync": "Atualizado %1",
+        "progress_lastsync_title": "Atualizado em %1",
+        "leaderboards-title": "Melhores Equipes",
+        "leaderboards-loading": "Obtendo equipes..",
+        "leaderboards-noresults": "Nenhum dado obtido.. Tente novamente",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tempo",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Mortes",
+        "leaderboards-showmore": "Mostrar Mais",
+        "leaderboards-showless": "Mostrar Menos",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro'.split('_'),
+            "longDateFormat": {
+                LLL: 'D [de] MMMM [de] YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "daqui a %s",
+                "past": "há %s atrás",
+                "s": 'alguns segundos',
+                "ss": '%d segundos',
+                "m": "um minuto",
+                "mm": "%d minutos",
+                "h": "uma hora",
+                "hh": "%d horas",
+                "d": "um dia",
+                "dd": "%d dias",
+                "M": "um mês",
+                "MM": "%d meses",
+                "y": "um ano",
+                "yy": "%d anos"
+            },
+            "ordinal": function(number) {
+                return number + "º";
+            }
+        },
+        "localization-credits": "Autores das Traduções",
+        "localization-help": "Quer ajudar?",
+        "localization-helptext": "Quer adicionar o seu idioma? Envie um pull request em %1."
     },
     "中文": {
         "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
@@ -436,6 +436,127 @@ var loc_strings = {
         "localization-credits": "Auteurs des traductions",
         "localization-help": "Vous souhaitez aider ?",
         "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
+    },
+    "Svenska": {
+        "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
+        "locale": "sv",
+        "progress_communityunlocks": "Gemensamt upplåsta mål",
+        "progress_bar_title": "Förlopp: %1%",
+        "progress_locked": "Låst",
+        "progress_beetletaur": "Infernaliska cyklopsvinet",
+        "progress_boarrior": "Smedjans storkrigare",
+        "progress_book_elemental": "Tillkallelsens lunta & Spiraliska spjutet",
+        "progress_lavaarena_armor_hpextraheavy": "Ståndaktiga storartade rustningen",
+        "progress_lavaarena_armor_hpdamager": "Naggade storartade rustningen",
+        "progress_lavaarena_armor_hprecharger": "Silkeslena storartade rustningen",
+        "progress_lavaarena_armor_hppetmastery": "Viskande storartade rustningen",
+        "progress_lavaarena_heavyblade": "Smedens egg",
+        "progress_lavaarena_firebomb": "Kristalliserad magmakammare",
+        "progress_rhinodrill": "Noshornsnavare",
+        "progress_trails": "Grisilla",
+        "progress_lastsync": "Senast uppdaterad %1",
+        "progress_lastsync_title": "Senast uppdaterad den %1",
+        "leaderboards-title": "Bästa lagen",
+        "leaderboards-loading": "Laddar de bästa lagen..",
+        "leaderboards-noresults": "Inga resultat funna.. Försök igen senare",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tid",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Förluster",
+        "leaderboards-showmore": "Visa fler",
+        "leaderboards-showless": "Visa färre",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Mars_April_Maj_Juni_Juli_Augusti_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'MMMM D, YYYY h:mm A',
+            },
+            "relativeTime": {
+                "future": "om %s",
+                "past": "%s sedan",
+                "s": 'några sekunder',
+                "ss": '%d sekunder',
+                "m": "en minut",
+                "mm": "%d minuter",
+                "h": "en timme",
+                "hh": "%d timmar",
+                "d": "en dag",
+                "dd": "%d dagar",
+                "M": "en månad",
+                "MM": "%d månader",
+                "y": "ett år",
+                "yy": "%d år"
+            },
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? 'e' :
+                    (b === 1) ? 'a' :
+                    (b === 2) ? 'a' :
+                    (b === 3) ? 'e' : 'e';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
+        },
+        "localization-credits": "Lokaliseringsmedverkande",
+        "localization-help": "Vill du hjälpa till?",
+        "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
+    }
+    "Nederlands": {
+        "author": "Nederlands door <a href='https://github.com/PassTheWessel'>Wesselgame</a>",
+        "locale": "nl",
+        "progress_communityunlocks": "Gemeenschap Ontgrendelingen",
+        "progress_bar_title": "Progressie: %1%",
+        "progress_locked": "Vergrendeld",
+        "progress_beetletaur": "Hels Swineclops",
+        "progress_boarrior": "Grote Smederij Boarrior",
+        "progress_book_elemental": "Tome van Beckoning & Spiraalvormige Speer",
+        "progress_lavaarena_armor_hpextraheavy": "Standvastig Groot Pantser",
+        "progress_lavaarena_armor_hpdamager": "Gekarteld Groot Pantser",
+        "progress_lavaarena_armor_hprecharger": "Zijden Groot Pantser",
+        "progress_lavaarena_armor_hppetmastery": "Fluisterend Groot Pantser",
+        "progress_lavaarena_heavyblade": "Smid's rand",
+        "progress_lavaarena_firebomb": "Gekristalliseerde magmakamer",
+        "progress_rhinodrill": "Rhinocebros",
+        "progress_trails": "Boarilla",
+        "progress_lastsync": "Laatst bijgewerkt %1",
+        "progress_lastsync_title": "Laatst gijgewerkt op %1",
+        "leaderboards-title": "Beste Teams",
+        "leaderboards-loading": "Beste teams aan het laden..",
+        "leaderboards-noresults": "Geen resultaten gevonden.. Probeer het later opnieuw",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tijd",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Sterfgevallen",
+        "leaderboards-showmore": "Laat meer zien",
+        "leaderboards-showless": "Laat minder zien",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "over %s",
+                "past": "%s geleden",
+                "s": 'een paar seconden',
+                "ss": '%d seconden',
+                "m": "één minuut",
+                "mm": "%d minuten",
+                "h": "één uur",
+                "hh": "%d uur",
+                "d": "één dag",
+                "dd": "%d dagen",
+                "M": "één maand",
+                "MM": "%d maanden",
+                "y": "één jaar",
+                "yy": "%d jaar"
+            },
+            "ordinal": function ( number ) {
+                return number + ( ( number === 1 || number === 8 || number >= 20 ) ? 'ste' : 'de' );
+            }
+        },
+        "localization-credits": "Localisatie Eer",
+        "localization-help": "Wilt u helpen?",
+        "localization-helptext": "Wilt u uw eigen taal toevoegen? Dien een pull-aanvraag in op %1."
     },
 }
 
