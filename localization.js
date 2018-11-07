@@ -379,9 +379,6 @@ var loc_strings = {
         "localization-help": "Vous souhaitez aider ?",
         "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
     },
-}
-var loc_selected_language = "Svenska";
-var loc_strings = {
     "Svenska": {
         "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
         "locale": "sv",
