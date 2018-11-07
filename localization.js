@@ -299,43 +299,14 @@ var loc_strings = {
                 "y": "bir yıl",
                 "yy": "%d yıl"
             },
-            "ordinal": function (number, period) {
-                switch (period) {
-                    case 'd':
-                    case 'D':
-                    case 'Do':
-                    case 'DD':
-                        return number;
-                    default:
-                        if (number === 0) {  // special case for zero
-                            return number + "<span class='ordinal'>" + '\'ıncı' + "</span>";
-                        }
-                        var a = number % 10,
-                            b = number % 100 - a,
-                            c = number >= 100 ? 100 : null;
-                        return number + "<span class='ordinal'>" + (loc_strings["Türkçe"]["suffixes"][a] || loc_strings["Türkçe"]["suffixes"][b] || loc_strings["Türkçe"]["suffixes"][c]) + "</span>";
-                }
-            },
-        },
-        "suffixes": {
-            1: '\'inci',
-            5: '\'inci',
-            8: '\'inci',
-            70: '\'inci',
-            80: '\'inci',
-            2: '\'nci',
-            7: '\'nci',
-            20: '\'nci',
-            50: '\'nci',
-            3: '\'üncü',
-            4: '\'üncü',
-            100: '\'üncü',
-            6: '\'ncı',
-            9: '\'uncu',
-            10: '\'uncu',
-            30: '\'uncu',
-            60: '\'ıncı',
-            90: '\'ıncı'
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? '.' :
+                    (b === 1) ? '\'inci' :
+                    (b === 2) ? '\'nci' :
+                    (b === 3) ? '\'üncü' : '.';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
         },
         "localization-credits": "Çeviri Ekipleri",
         "localization-help": "Yardım etmek ister misin?",
