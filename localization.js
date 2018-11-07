@@ -92,7 +92,7 @@ var loc_strings = {
         "leaderboards-showmore": "Laat meer zien",
         "leaderboards-showless": "Laat minder zien",
         "date": {
-            "parentLocale": 'nl',
+            "parentLocale": 'en',
             "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
             "longDateFormat": {
                 LLL: 'D MMMM YYYY HH:mm',
