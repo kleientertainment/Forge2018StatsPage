@@ -191,194 +191,66 @@ var loc_strings = {
         "localization-help": "需要帮助吗？",
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
     },
-    "Norsk bokmål": {
-        "author": "Norsk bokmål av <a href='https://github.com/Fjedjik'>Fjedjik</a>",
-        "locale": "nb",
-        "progress_communityunlocks": "Opplåst av fellesskapet",
-        "progress_bar_title": "Fremgang: %1%",
-        "progress_locked": "Låst",
-        "progress_beetletaur": "Djevelske Svineklopper",
-        "progress_boarrior": "Store Smiesvinkriger",
-        "progress_book_elemental": "Bind av Tegngiving & Sprialspyd",
-        "progress_lavaarena_armor_hpextraheavy": "Stødig Storslått Rustning",
-        "progress_lavaarena_armor_hpdamager": "Skarp Storslått Rustning",
-        "progress_lavaarena_armor_hprecharger": "Myk Storslått Rustning",
-        "progress_lavaarena_armor_hppetmastery": "Hviskende Storslått Rustning",
-        "progress_lavaarena_heavyblade": "Smedens Kant",
-        "progress_lavaarena_firebomb": "Krystallisert Magmakammer",
-        "progress_rhinodrill": "Neshorncebros",
-        "progress_trails": "Griorilla",
-        "progress_lastsync": "Sist oppdatert %1",
-        "progress_lastsync_title": "Sist oppdatert på %1",
-        "leaderboards-title": "Topplagene",
-        "leaderboards-loading": "Laster topplagene..",
-        "leaderboards-noresults": "Fant ingen resultater.. Prøv igjen senere",
+	
+	"Srpski": {
+        "author": "Serbian by <a href='https://steamcommunity.com/id/rammbagrobar/'>rammba</a> and <a href='https://steamcommunity.com/id/Romanizat'>romanizat</a>",
+        "locale": "srb",
+        "progress_communityunlocks": "Zajednica je otključala",
+        "progress_bar_title": "Progres: %1%",
+        "progress_locked": "Zaključano",
+        "progress_beetletaur": "Vatreni Svinjaklop",
+        "progress_boarrior": "Veliki Forge Veparatnik",
+        "progress_book_elemental": "Tom prizivanja i spiralnog koplja",
+        "progress_lavaarena_armor_hpextraheavy": "Veliki istrajni oklop",
+        "progress_lavaarena_armor_hpdamager": "Veliki zupčasti oklop",
+        "progress_lavaarena_armor_hprecharger": "Veliki svileni oklop",
+        "progress_lavaarena_armor_hppetmastery": "Veliki šaputajući oklop",
+        "progress_lavaarena_heavyblade": "Kovačeva Oštrica",
+        "progress_lavaarena_firebomb": "Kristalizovana odaja magme",
+        "progress_rhinodrill": "Pesnicarog",
+        "progress_trails": "Veparila",
+        "progress_lastsync": "Poslednji put ažurirano %1",
+        "progress_lastsync_title": "Poslednji put ažurirano %1",
+        "leaderboards-title": "Najbolji timovi",
+        "leaderboards-loading": "Učitavanje još timova...",
+        "leaderboards-noresults": "Nema rezultata.. Pokušajte kasnije",
         "leaderboards-pos": "%1",
-        "leaderboards-time": "Tid",
+        "leaderboards-time": "Vreme",
         "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Dødsfall",
-        "leaderboards-showmore": "Vis Mer",
-        "leaderboards-showless": "Vis Mindre",
+        "leaderboards-deaths": "Broj smrti",
+        "leaderboards-showmore": "Prikaži više",
+        "leaderboards-showless": "Prikaži manje",
         "date": {
             "parentLocale": 'en',
-            "months": 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
+            "months": 'Januara_Februara_Marta_Aprila_Maja_Juna_Jula_Avgusta_Septembra_Oktobra_Novembra_Decembra'.split('_'),
             "longDateFormat": {
-                LLL: 'D. MMMM YYYY [kl.] HH:mm',
+				LLL: 'D[.]  MMMM  YYYY[. u]  HH:mm'
+				
             },
             "relativeTime": {
-                "future": "om %s",
-                "past": "%s siden",
-                "s": 'noen sekunder',
-                "ss": '%d sekunder',
-                "m": "ett minutt",
-                "mm": "%d minutter",
-                "h": "en time",
-                "hh": "%d timer",
-                "d": "en dag",
-                "dd": "%d dager",
-                "M": "en måned",
-                "MM": "%d måneder",
-                "y": "ett år",
-                "yy": "%d år"
+                "future": "za %s",
+                "past": "pre %s",
+                "s": 'par sekundi',
+                "ss": '%d sekundi',
+                "m": "jednog minuta",
+                "mm": "%d minuta",
+                "h": "jednog sata",
+                "hh": "%d sati",
+                "d": "jednog dana",
+                "dd": "%d dana",
+                "M": "jednog meseca",
+                "MM": "%d meseci",
+                "y": "jedne godine",
+                "yy": "%d godina"
             },
             "ordinal": function(number) {
                 return number + ".";
-            },
-        },
-        "localization-credits": "Oversettelsesforfatterne",
-        "localization-help": "Ønsker du å hjelpe?",
-        "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
-    },
-    "Türkçe": {
-        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
-        "locale": "tr-TR",
-        "progress_communityunlocks": "Topluluk Başarıları",
-        "progress_bar_title": "İlerleme: %1%",
-        "progress_locked": "Kilitli",
-        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
-        "progress_boarrior": "Ulu Demirhane Savaşdomuzu",
-        "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
-        "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
-        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh", //?
-        "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
-        "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
-        "progress_lavaarena_heavyblade": "Demirci Bıçağı",
-        "progress_lavaarena_firebomb": "Kristal Mağma Odası",
-        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting
-        "progress_trails": "Yabangorili",
-        "progress_lastsync": "Son güncelleme %1",
-        "progress_lastsync_title": "En son %1 tarihinde güncellendi",
-        "leaderboards-title": "En İyi Takımlar",
-        "leaderboards-loading": "En iyi takımlar yükleniyor..",
-        "leaderboards-noresults": "Hiç sonuç yok.. Daha sonra tekrar deneyin",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Süre",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Ölümler",
-        "leaderboards-showmore": "Daha Fazla Göster",
-        "leaderboards-showless": "Daha Az Göster",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Auğustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM, YYYY HH:mm',
-            },
-            "relativeTime": {
-                "future": "%s içinde",
-                "past": "%s önce",
-                "s": 'birkaç saniye',
-                "ss": '%d saniye',
-                "m": "bir dakika",
-                "mm": "%d dakika",
-                "h": "bir saat",
-                "hh": "%d saat",
-                "d": "bir gün",
-                "dd": "%d gün",
-                "M": "bir ay",
-                "MM": "%d ay",
-                "y": "bir yıl",
-                "yy": "%d yıl"
-            },
-            "ordinal": function(number) {
-                var b = number % 10,
-                    output = (~~(number % 100 / 10) === 1) ? '.' :
-                    (b === 1) ? '\'inci' :
-                    (b === 2) ? '\'nci' :
-                    (b === 3) ? '\'üncü' : '.';
-                return number + "<span class='ordinal'>" + output + "</span>";
             }
         },
-        "localization-credits": "Çeviri Ekipleri",
-        "localization-help": "Yardım etmek ister misin?",
-        "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
-    },
-    "Français": {
-        "author": "Français par <a href='https://klei.com/'>Klei</a>, Frodeur et Hugy",
-        "locale": "fr-FR",
-        "progress_communityunlocks": "Progression Communautaire",
-        "progress_bar_title": "Progression: %1%",
-        "progress_locked": "Verrouillé",
-        "progress_beetletaur": "Porcyclops Infernal",
-        "progress_boarrior": "Imposant Sanglerrier de la Forge",
-        "progress_book_elemental": "Tome d'invocation & Lance Spirale",
-        "progress_lavaarena_armor_hpextraheavy": "Imposante Armure Inébranlable",
-        "progress_lavaarena_armor_hpdamager": "Imposante Armure D'épine",
-        "progress_lavaarena_armor_hprecharger": "Imposante Armure de Tissoin",
-        "progress_lavaarena_armor_hppetmastery": "Imposante Armure de Domestication",
-        "progress_lavaarena_heavyblade": "Fendoir du Forgeron",
-        "progress_lavaarena_firebomb": "Chambre Magmatique Crystalisée",
-        "progress_rhinodrill": "Perçorhino",
-        "progress_trails": "Sangoriller",
-        "progress_lastsync": "Dernière mise à jour %1",
-        "progress_lastsync_title": "Dernière mise à jour le %1",
-        "leaderboards-title": "Meilleures équipes",
-        "leaderboards-loading": "Chargement des meilleurs équipes..",
-        "leaderboards-noresults": "Aucun résultat. Réessayez plus tard",
-        "leaderboards-pos": "%1",
-        "leaderboards-time": "Temps",
-        "leaderboards-seconds": "s",
-        "leaderboards-deaths": "Morts",
-        "leaderboards-showmore": "Voir plus",
-        "leaderboards-showless": "Voir moins",
-        "date": {
-            "parentLocale": 'en',
-            "months": 'Janvier_Février_Mars_Avril_Mai_Juin_Juillet_Août_Septembre_Octobre_Novembre_Décembre'.split('_'),
-            "longDateFormat": {
-                LLL: 'D MMMM YYYY à k:mm',
-            },
-            "relativeTime": {
-                "future": "dans %s",
-                "past": "il y a %s",
-                "s": 'quelques secondes',
-                "ss": '%d secondes',
-                "m": "une minute",
-                "mm": "%d minutes",
-                "h": "une heure",
-                "hh": "%d hours",
-                "d": "un jour",
-                "dd": "%d jours",
-                "M": "un mois",
-                "MM": "%d mois",
-                "y": "un an",
-                "yy": "%d ans"
-            },
-            "ordinal": function(number) {
-                var suffix = "ème";
-                switch (number) {
-                    case 1:
-                        suffix = "er";
-                        break;
-                    case 2:
-                        suffix = "nd";
-                        break;
-                }
-                return number + "<span class='ordinal'>" + suffix + "</span>";
-            }
-        },
-        "localization-credits": "Auteurs des traductions",
-        "localization-help": "Vous souhaitez aider ?",
-        "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
-    },
+        "localization-credits": "Zasluge lokalizacija",
+        "localization-help": "Da li želiš da pomogneš?",
+        "localization-helptext": "Želiš li dodati svoj jezik? Podnesi zahtev na %1."
+	},
 }
 
 function LocalizeSetup() {
@@ -428,7 +300,7 @@ function UpdateLocalization(parent) {
     var parent = parent || "body";
 
     // Update credits hover on language selector
-    $("#language").attr("title", (LocalizeString("author") || loc_strings["English"]["author"]).replace(/<\/?.+?>/ig, ''));
+    $("#language").attr("title", LocalizeString("author") || loc_strings["English"]["author"]);
 
     // Try and update the locale on the Moment library
     if (typeof moment === 'function') {
