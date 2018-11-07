@@ -241,7 +241,7 @@ var loc_strings = {
                 "y": "ett år",
                 "yy": "%d år"
             },
-            "ordinal": function (number) {
+            "ordinal": function(number) {
                 return number + ".";
             },
         },
@@ -256,10 +256,10 @@ var loc_strings = {
         "progress_bar_title": "İlerleme: %1%",
         "progress_locked": "Kilitli",
         "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
-        "progress_boarrior": "Ulu Demirhane Savaşdomuzu" ,
+        "progress_boarrior": "Ulu Demirhane Savaşdomuzu",
         "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
         "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
-        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh",//?
+        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh", //?
         "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
         "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
         "progress_lavaarena_heavyblade": "Demirci Bıçağı",
@@ -312,6 +312,73 @@ var loc_strings = {
         "localization-help": "Yardım etmek ister misin?",
         "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
     },
+    "Français": {
+        "author": "Français par <a href='https://klei.com/'>Klei</a>, Frodeur et Hugy",
+        "locale": "fr-FR",
+        "progress_communityunlocks": "Progression Communautaire",
+        "progress_bar_title": "Progression: %1%",
+        "progress_locked": "Verrouillé",
+        "progress_beetletaur": "Porcyclops Infernal",
+        "progress_boarrior": "Imposant Sanglerrier de la Forge",
+        "progress_book_elemental": "Tome d'invocation & Lance Spirale",
+        "progress_lavaarena_armor_hpextraheavy": "Imposante Armure Inébranlable",
+        "progress_lavaarena_armor_hpdamager": "Imposante Armure D'épine",
+        "progress_lavaarena_armor_hprecharger": "Imposante Armure de Tissoin",
+        "progress_lavaarena_armor_hppetmastery": "Imposante Armure de Domestication",
+        "progress_lavaarena_heavyblade": "Fendoir du Forgeron",
+        "progress_lavaarena_firebomb": "Chambre Magmatique Crystalisée",
+        "progress_rhinodrill": "Perçorhino",
+        "progress_trails": "Sangoriller",
+        "progress_lastsync": "Dernière mise à jour %1",
+        "progress_lastsync_title": "Dernière mise à jour le %1",
+        "leaderboards-title": "Meilleures équipes",
+        "leaderboards-loading": "Chargement des meilleurs équipes..",
+        "leaderboards-noresults": "Aucun résultat. Réessayez plus tard",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Temps",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Morts",
+        "leaderboards-showmore": "Voir plus",
+        "leaderboards-showless": "Voir moins",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Janvier_Février_Mars_Avril_Mai_Juin_Juillet_Août_Septembre_Octobre_Novembre_Décembre'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYY à k:mm',
+            },
+            "relativeTime": {
+                "future": "dans %s",
+                "past": "il y a %s",
+                "s": 'quelques secondes',
+                "ss": '%d secondes',
+                "m": "une minute",
+                "mm": "%d minutes",
+                "h": "une heure",
+                "hh": "%d hours",
+                "d": "un jour",
+                "dd": "%d jours",
+                "M": "un mois",
+                "MM": "%d mois",
+                "y": "un an",
+                "yy": "%d ans"
+            },
+            "ordinal": function(number) {
+                var suffix = "ème";
+                switch (number) {
+                    case 1:
+                        suffix = "er";
+                        break;
+                    case 2:
+                        suffix = "nd";
+                        break;
+                }
+                return number + "<span class='ordinal'>" + suffix + "</span>";
+            }
+        },
+        "localization-credits": "Auteurs des traductions",
+        "localization-help": "Vous souhaitez aider ?",
+        "localization-helptext": "Vous souhaitez ajouter votre propre language ? Envoyez une pull request sur %1."
+    },
 }
 
 function LocalizeSetup() {
@@ -361,7 +428,7 @@ function UpdateLocalization(parent) {
     var parent = parent || "body";
 
     // Update credits hover on language selector
-    $("#language").attr("title", ( LocalizeString("author") || loc_strings["English"]["author"] ).replace(/<\/?.+?>/ig, '') );
+    $("#language").attr("title", (LocalizeString("author") || loc_strings["English"]["author"]).replace(/<\/?.+?>/ig, ''));
 
     // Try and update the locale on the Moment library
     if (typeof moment === 'function') {
