@@ -247,7 +247,7 @@ var loc_strings = {
         "localization-helptext": "Ønsker du å legge til ditt eget språk? Send in en pullforespørsel på %1."
     },
     "Português PT": {
-        "author": "Português pela <a href='https://klei.com/'>Klei</a>",
+        "author": "Português PT pela <a href='https://klei.com/'>Klei</a>",
         "locale": "pt-PT",
         "progress_communityunlocks": "Desbloqueios da Comunidade",
         "progress_bar_title": "Progresso: %1%",
@@ -305,7 +305,7 @@ var loc_strings = {
         "localization-helptext": "Queres adicionar a tua língua? Envia um pull request no %1."
     },
     "Português BR": {
-        "author": "Português pela <a href='https://klei.com/'>Klei</a>",
+        "author": "Português BR por <a href='https://forums.kleientertainment.com/profile/978076-kynoox_/'>Kynoox_</a>",
         "locale": "pt-BR",
         "progress_communityunlocks": "Desbloqueios da Comunidade",
         "progress_bar_title": "Progresso: %1%",
