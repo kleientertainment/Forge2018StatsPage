@@ -382,7 +382,7 @@ var loc_strings = {
         "progress_lastsync": "Poslednji put ažurirano %1",
         "progress_lastsync_title": "Poslednji put ažurirano %1",
         "leaderboards-title": "Najbolji timovi",
-        "leaderboards-loading": "Učitavanje još timova...",
+        "leaderboards-loading": "Učitavanje najboljih timova...",
         "leaderboards-noresults": "Nema rezultata.. Pokušajte kasnije",
         "leaderboards-pos": "%1",
         "leaderboards-time": "Vreme",
