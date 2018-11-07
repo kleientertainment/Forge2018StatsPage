@@ -1,5 +1,6 @@
 var loc_selected_language = "English";
 var loc_strings = {
+
     "English": {
         "author": "English by <a href='https://klei.com/'>Klei</a>",
         "locale": "en",
@@ -62,6 +63,69 @@ var loc_strings = {
         "localization-credits": "Localization Credits",
         "localization-help": "Want to help?",
         "localization-helptext": "Want to add your own language? Submit a pull request on %1."
+    },
+	"Türkçe": {
+        "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
+        "locale": "tr-TR",
+        "progress_communityunlocks": "Topluluk Başarıları",
+        "progress_bar_title": "İlerleme: %1%",
+        "progress_locked": "Kilitli",
+        "progress_beetletaur": "Infernal Swineclops", //TODO I need to see what this is before making up a fitting wordplay
+        "progress_boarrior": "Ulu Demirhane Savaşdomuzu" ,
+        "progress_book_elemental": "Atıl Kurt Yazıtı ve Kıvrak Mızrak",
+        "progress_lavaarena_armor_hpextraheavy": "Sarsılmaz Ulu Zırh",
+        "progress_lavaarena_armor_hpdamager": "Dişli Ulu Zırh",//?
+        "progress_lavaarena_armor_hprecharger": "İpeksi Ulu Zırh",
+        "progress_lavaarena_armor_hppetmastery": "Fısıldayan Ulu Zırh",
+        "progress_lavaarena_heavyblade": "Demirci Bıçağı",
+        "progress_lavaarena_firebomb": "Kristal Mağma Odası",
+        "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting 
+        "progress_trails": "Yabangorili", 
+        "progress_lastsync": "Son güncelleme %1", 
+        "progress_lastsync_title": "En son %1 tarihinde güncellendi", 
+        "leaderboards-title": "En İyi Takımlar", 
+        "leaderboards-loading": "En iyi takımlar yükleniyor..",
+        "leaderboards-noresults": "Hiç sonuç yok.. Daha sonra tekrar deneyin",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Süre",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Ölümler",
+        "leaderboards-showmore": "Daha Fazla Göster", 
+        "leaderboards-showless": "Daha Az Göster",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Auğustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM, YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "%s içinde",
+                "past": "%s önce",
+                "s": 'birkaç saniye',
+                "ss": '%d saniye',
+                "m": "bir dakika",
+                "mm": "%d dakika",
+                "h": "bir saat",
+                "hh": "%d saat",
+                "d": "bir gün",
+                "dd": "%d gün",
+                "M": "bir ay",
+                "MM": "%d ay",
+                "y": "bir yıl",
+                "yy": "%d yıl"
+            },
+            "ordinal": function(number) {
+                var b = number % 10,
+                    output = (~~(number % 100 / 10) === 1) ? '.' :
+                    (b === 1) ? 'inci' ://TODO
+                    (b === 2) ? 'nci' :
+                    (b === 3) ? 'üncü' : '.';
+                return number + "<span class='ordinal'>" + output + "</span>";
+            }
+        },
+        "localization-credits": "Çeviri Ekipleri", 
+        "localization-help": "Yardım etmek ister misin?",
+        "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
     },
     "Português": {
         "author": "Português pela <a href='https://klei.com/'>Klei</a>",
