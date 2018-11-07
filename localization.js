@@ -431,18 +431,19 @@ var loc_strings = {
             },
             "ordinal": function(number) {
                 var b = number % 10,
-                    output = (~~(number % 100 / 10) === 1) ? 'th' :
-                    (b === 1) ? 'st' :
-                    (b === 2) ? 'nd' :
-                    (b === 3) ? 'rd' : 'th';
+                    output = (~~(number % 100 / 10) === 1) ? 'e' :
+                    (b === 1) ? 'a' :
+                    (b === 2) ? 'a' :
+                    (b === 3) ? 'e' : 'e';
                 return number + "<span class='ordinal'>" + output + "</span>";
             }
         },
         "localization-credits": "Lokaliseringsmedverkande",
         "localization-help": "Vill du hjälpa till?",
         "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
-    },
-    
+    }
+}
+
 function LocalizeSetup() {
     // Add language selector
     var languageContainer = document.createElement("div");
