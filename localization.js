@@ -500,6 +500,64 @@ var loc_strings = {
         "localization-help": "Vill du hjälpa till?",
         "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
     }
+    "Nederlands": {
+        "author": "Nederlands door <a href='https://github.com/PassTheWessel'>Wesselgame</a>",
+        "locale": "nl",
+        "progress_communityunlocks": "Gemeenschap Ontgrendelingen",
+        "progress_bar_title": "Progressie: %1%",
+        "progress_locked": "Vergrendeld",
+        "progress_beetletaur": "Hels Swineclops",
+        "progress_boarrior": "Grote Smederij Boarrior",
+        "progress_book_elemental": "Tome van Beckoning & Spiraalvormige Speer",
+        "progress_lavaarena_armor_hpextraheavy": "Standvastig Groot Pantser",
+        "progress_lavaarena_armor_hpdamager": "Gekarteld Groot Pantser",
+        "progress_lavaarena_armor_hprecharger": "Zijden Groot Pantser",
+        "progress_lavaarena_armor_hppetmastery": "Fluisterend Groot Pantser",
+        "progress_lavaarena_heavyblade": "Smid's rand",
+        "progress_lavaarena_firebomb": "Gekristalliseerde magmakamer",
+        "progress_rhinodrill": "Rhinocebros",
+        "progress_trails": "Boarilla",
+        "progress_lastsync": "Laatst bijgewerkt %1",
+        "progress_lastsync_title": "Laatst gijgewerkt op %1",
+        "leaderboards-title": "Beste Teams",
+        "leaderboards-loading": "Beste teams aan het laden..",
+        "leaderboards-noresults": "Geen resultaten gevonden.. Probeer het later opnieuw",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Tijd",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Sterfgevallen",
+        "leaderboards-showmore": "Laat meer zien",
+        "leaderboards-showless": "Laat minder zien",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januari_Februari_Maart_April_Mei_Juni_Juli_Augustus_September_Oktober_November_December'.split('_'),
+            "longDateFormat": {
+                LLL: 'D MMMM YYYY HH:mm',
+            },
+            "relativeTime": {
+                "future": "over %s",
+                "past": "%s geleden",
+                "s": 'een paar seconden',
+                "ss": '%d seconden',
+                "m": "één minuut",
+                "mm": "%d minuten",
+                "h": "één uur",
+                "hh": "%d uur",
+                "d": "één dag",
+                "dd": "%d dagen",
+                "M": "één maand",
+                "MM": "%d maanden",
+                "y": "één jaar",
+                "yy": "%d jaar"
+            },
+            "ordinal": function ( number ) {
+                return number + ( ( number === 1 || number === 8 || number >= 20 ) ? 'ste' : 'de' );
+            }
+        },
+        "localization-credits": "Localisatie Eer",
+        "localization-help": "Wilt u helpen?",
+        "localization-helptext": "Wilt u uw eigen taal toevoegen? Dien een pull-aanvraag in op %1."
+    },
 }
 
 function LocalizeSetup() {
