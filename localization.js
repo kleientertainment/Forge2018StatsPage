@@ -385,7 +385,7 @@ var loc_strings = {
     "Svenska": {
         "author": "Svenska av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
         "locale": "sv",
-        "progress_communityunlocks": "Gemensamma upplåsta mål",
+        "progress_communityunlocks": "Gemensamt upplåsta mål",
         "progress_bar_title": "Förlopp: %1%",
         "progress_locked": "Låst",
         "progress_beetletaur": "Infernaliska svincyklopen",
