@@ -240,7 +240,7 @@ function UpdateLocalization(parent) {
     var parent = parent || "body";
 
     // Update credits hover on language selector
-    $("#language").attr("title", LocalizeString("author") || loc_strings["English"]["author"]);
+    $("#language").attr("title", ( LocalizeString("author") || loc_strings["English"]["author"] ).replace(/<\/?.+?>/ig, '') );
 
     // Try and update the locale on the Moment library
     if (typeof moment === 'function') {
