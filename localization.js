@@ -1,6 +1,5 @@
 var loc_selected_language = "English";
 var loc_strings = {
-
     "English": {
         "author": "English by <a href='https://klei.com/'>Klei</a>",
         "locale": "en",
@@ -117,9 +116,9 @@ var loc_strings = {
             "ordinal": function(number) {
                 var b = number % 10,
                     output = (~~(number % 100 / 10) === 1) ? '.' :
-                    (b === 1) ? 'inci' ://TODO
-                    (b === 2) ? 'nci' :
-                    (b === 3) ? 'üncü' : '.';
+                    (b === 1) ? '\'inci' :
+                    (b === 2) ? '\'nci' :
+                    (b === 3) ? '\'üncü' : '.';
                 return number + "<span class='ordinal'>" + output + "</span>";
             }
         },
