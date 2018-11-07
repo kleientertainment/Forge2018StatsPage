@@ -635,6 +635,9 @@ function LocalizeSetup() {
         $(languageOption).appendTo($(languageSelect));
     }
 
+    // Show localization footer
+    LocalizeSetupFooter();
+
     // Look for a language cookie
     var language = LocalizeGetCookie("language");
     if (language != null && loc_strings[language] != null) {
@@ -652,9 +655,6 @@ function LocalizeSetup() {
     $(languageSelect).on('change', function() {
         LocalizeSetLanguage(this.value);
     });
-
-    // Show localization footer
-    LocalizeSetupFooter();
 
 }
 
