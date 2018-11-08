@@ -550,8 +550,8 @@ var loc_strings = {
         "progress_lastsync": "Son güncelleme %1",
         "progress_lastsync_title": "En son %1 tarihinde güncellendi",
         "leaderboards-title": "En İyi Takımlar",
-        "leaderboards-loading": "En iyi takımlar yükleniyor..",
-        "leaderboards-noresults": "Hiç sonuç yok.. Daha sonra tekrar deneyin",
+        "leaderboards-loading": "En iyi takımlar yükleniyor...",
+        "leaderboards-noresults": "Hiç sonuç yok... Daha sonra tekrar deneyin",
         "leaderboards-pos": "%1",
         "leaderboards-time": "Süre",
         "leaderboards-seconds": "s",
@@ -560,7 +560,7 @@ var loc_strings = {
         "leaderboards-showless": "Daha Az Göster",
         "date": {
             "parentLocale": 'en',
-            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Auğustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
+            "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Ağustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
             "longDateFormat": {
                 LLL: 'D MMMM, YYYY HH:mm',
             },
