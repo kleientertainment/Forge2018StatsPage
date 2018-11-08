@@ -470,7 +470,7 @@ var loc_strings = {
     "Svenska": {
         "author": "Svensk översättning av <a href='https://forums.kleientertainment.com/profile/912865-captain_rage/'>Captain Rage</a>",
         "locale": "sv",
-        "progress_communityunlocks": "Gemensamt upplåsta mål",
+        "progress_communityunlocks": "Upplåsta gemensamma mål",
         "progress_bar_title": "Förlopp: %1%",
         "progress_locked": "Låst",
         "progress_beetletaur": "Infernaliska cyklopsvinet",
@@ -520,9 +520,9 @@ var loc_strings = {
             "ordinal": function(number) {
                 var b = number % 10,
                     output = (~~(number % 100 / 10) === 1) ? 'e' :
-                    (b === 1) ? 'a' :
-                    (b === 2) ? 'a' :
-                    (b === 3) ? 'e' : 'e';
+                    (b === 1) ? ':a' :
+                    (b === 2) ? ':a' :
+                    (b === 3) ? ':e' : ':e';
                 return number + "<span class='ordinal'>" + output + "</span>";
             }
         },
