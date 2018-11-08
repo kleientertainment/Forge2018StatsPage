@@ -721,6 +721,64 @@ var loc_strings = {
         "localization-help": "需要帮助吗？",
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
     },
+    "한국어": {
+        "author": "<a href='https://steamcommunity.com/profiles/76561198363650719'>코끼리커여워</a>에 의한 한국어",
+        "locale": "ko",
+        "progress_communityunlocks": "커뮤니티 잠금 해제",
+        "progress_bar_title": "진행률 : %1%",
+        "progress_locked": "잠김",
+        "progress_beetletaur": "지옥의 외눈돼지",
+        "progress_boarrior": "연마장 대전사",
+        "progress_book_elemental": "수세의 서 & 나선창",
+        "progress_lavaarena_armor_hpextraheavy": "변한없는 갑옷",
+        "progress_lavaarena_armor_hpdamager": "삐죽삐죽한 갑옷",
+        "progress_lavaarena_armor_hprecharger": "비단결 같은 갑옷",
+        "progress_lavaarena_armor_hppetmastery": "속삭이는 갑옷",
+        "progress_lavaarena_heavyblade": "대장장이의 칼날",
+        "progress_lavaarena_firebomb": "결정화된 마그마굄",
+        "progress_rhinodrill": "코뿔소형제",
+        "progress_trails": "보어릴라",
+        "progress_lastsync": "%1 갱신됨",
+        "progress_lastsync_title": "%1에 대해 갱신됨",
+        "leaderboards-title": "상위 팀",
+        "leaderboards-loading": "상위 팀을 불러오는 중입니다..",
+        "leaderboards-noresults": "결과가 나오지 않았습니다.. 다시 시도해 주세요",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "경기 시간",
+        "leaderboards-seconds": "초",
+        "leaderboards-deaths": "사망 횟수",
+        "leaderboards-showmore": "더 보기",
+        "leaderboards-showless": "숨기기",
+        "date": {
+            "parentLocale": 'ko',
+            "months": '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'.split('_'),
+            "longDateFormat": {
+                LLL: 'YYYY MMMM D h:mm A',
+            },
+            "relativeTime": {
+                "future": "%s 후",
+                "past": "%s 전",
+                "s": '초',
+                "ss": '%d 초',
+                "m": "분",
+                "mm": "%d 분",
+                "h": "시",
+                "hh": "%d 시간",
+                "d": "일",
+                "dd": "%d 일",
+                "M": "월",
+                "MM": "%d 달",
+                "y": "년",
+                "yy": "%d 년"
+            },
+            "ordinal": function(number) {
+                return number + "등";
+            }
+        },
+        "localization-credits": "현지화 공로자들",
+        "localization-help": "도움을 필요하신가요?",
+        "localization-helptext": "당신의 언어를 추가하길 원하신다면 %1에 요청을 제출하세요."
+    },
 }
 
 loc_strings["Русский"]["date"]["relativeTimeWithPlural"] = function(number, withoutSuffix, key) {
