@@ -114,7 +114,7 @@ var loc_strings = {
                 "yy": "%d años"
             },
             "ordinal": function(number) {
-                return number + "<span class='ordinal'>º</span>";
+                return number + "º";
             }
         },
         "localization-credits": "Créditos por traducciones",
