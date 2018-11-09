@@ -893,7 +893,7 @@ var loc_strings = {
       }
     },
     "localization-credits": "현지화 공로자들",
-    "localization-help": "도움을 필요하신가요?",
+    "localization-help": "도움 필요하신가요?",
     "localization-helptext": "당신의 언어를 추가하길 원하신다면 %1에 요청을 제출하세요."
   },
 }
