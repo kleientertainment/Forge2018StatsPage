@@ -1,5 +1,63 @@
 var loc_selected_language = "English";
 var loc_strings = {
+  "Deutsch": {
+    "author": "Deutsch von <a href='https://github.com/jwortmann'>Flexo</a>",
+    "locale": "de",
+    "progress_communityunlocks": "Community-Freischaltungen",
+    "progress_bar_title": "Fortschritt: %1%",
+    "progress_locked": "Gesperrt",
+    "progress_beetletaur": "Höllischer Schweinsklopps",
+    "progress_boarrior": "Mächtiger Warzenschweinkrieger",
+    "progress_book_elemental": "Buch der Beschwörung & Spiral-Speer",
+    "progress_lavaarena_armor_hpextraheavy": "Mächtige schwere Rüstung",
+    "progress_lavaarena_armor_hpdamager": "Imposanter Stachelpanzer",
+    "progress_lavaarena_armor_hprecharger": "Prachtvolle Seidenrüstung",
+    "progress_lavaarena_armor_hppetmastery": "Imposante raschelnde Rüstung",
+    "progress_lavaarena_heavyblade": "Schneide des Schmiedes",
+    "progress_lavaarena_firebomb": "Kristallisierte Magmakammer",
+    "progress_rhinodrill": "Rhinozebros",
+    "progress_trails": "Boarilla",
+    "progress_lastsync": "Zuletzt aktualisiert %1",
+    "progress_lastsync_title": "Zuletzt aktualisiert am %1",
+    "leaderboards-title": "Die besten Teams",
+    "leaderboards-loading": "Lade die besten Teams..",
+    "leaderboards-noresults": "Keine Resultate gefunden.. Versuche es später noch einmal",
+    "leaderboards-pos": "%1",
+    "leaderboards-time": "Zeit",
+    "leaderboards-seconds": "s",
+    "leaderboards-deaths": "Tode",
+    "leaderboards-showmore": "Zeige mehr",
+    "leaderboards-showless": "Zeige weniger",
+    "date": {
+      "parentLocale": 'en',
+      "months": 'Januar_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'.split('_'),
+      "longDateFormat": {
+        LLL: 'D. MMMM YYYY HH:mm',
+      },
+      "relativeTime": {
+        "future": "in %s",
+        "past": "vor %s",
+        "s": "ein paar Sekunden",
+        "ss": "%d Sekunden",
+        "m": "einer Minute",
+        "mm": "%d Minuten",
+        "h": "einer Stunde",
+        "hh": "%d Stunden",
+        "d": "einem Tag",
+        "dd": "%d Tagen",
+        "M": "einem Monat",
+        "MM": "%d Monaten",
+        "y": "einem Jahr",
+        "yy": "%d Jahren"
+      },
+      "ordinal": function(number) {
+          return number + ".";
+      }
+    },
+    "localization-credits": "Autoren der Übersetzungen",
+    "localization-help": "Möchtest du helfen?",
+    "localization-helptext": "Möchtest du deine eigene Sprache hinzufügen? Sende einen Pull-Request auf %1."
+  },
   "English": {
     "author": "English by <a href='https://klei.com/'>Klei</a>",
     "locale": "en",
