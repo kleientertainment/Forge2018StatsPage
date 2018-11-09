@@ -377,7 +377,7 @@ var loc_strings = {
     "progress_lavaarena_armor_hppetmastery": "Великая броня шёпота",
     "progress_lavaarena_heavyblade": "Грань кузнеца",
     "progress_lavaarena_firebomb": "Кристаллизованная магматическая камера",
-    "progress_rhinodrill": "Нособраз",
+    "progress_rhinodrill": "Нособур",
     "progress_trails": "Борилла",
     "progress_lastsync": "Обновлено %1",
     "progress_lastsync_title": "Обновлено %1",
