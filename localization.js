@@ -977,6 +977,9 @@ function LocalizeSetup() {
 function UpdateLocalization(parent) {
   var parent = parent || "body";
 
+  // Update option on language selector
+  $(".language-select").val(loc_selected_language);
+
   // Update credits hover on language selector
   $("#language").attr("title", (LocalizeString("author") || loc_strings["English"]["author"]).replace(/<\/?.+?>/ig, ''));
 
