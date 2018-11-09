@@ -6,7 +6,7 @@ var loc_strings = {
     "progress_communityunlocks": "Community-Freischaltungen",
     "progress_bar_title": "Fortschritt: %1%",
     "progress_locked": "Gesperrt",
-    "progress_beetletaur": "Höllischer Schweinsklopps",
+    "progress_beetletaur": "Höllischer Schweinsklops",
     "progress_boarrior": "Mächtiger Warzenschweinkrieger",
     "progress_book_elemental": "Buch der Beschwörung & Spiral-Speer",
     "progress_lavaarena_armor_hpextraheavy": "Mächtige schwere Rüstung",
