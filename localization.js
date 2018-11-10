@@ -782,7 +782,7 @@ var loc_strings = {
     "progress_lavaarena_armor_hprecharger": "丝绸大盔甲",
     "progress_lavaarena_armor_hppetmastery": "耳语大盔甲",
     "progress_lavaarena_heavyblade": "铁匠利锋",
-    "progress_lavaarena_firebomb": "结晶岩浆室",
+    "progress_lavaarena_firebomb": "爆弹",
     "progress_rhinodrill": "钻犀兄弟",
     "progress_trails": "猪猩",
     "progress_lastsync": "最近更新 %1",
