@@ -1,5 +1,68 @@
 var loc_selected_language = "English";
 var loc_strings = {
+  "Bahasa Indonesia": {
+    "author": "Bahasa Indonesia Oleh <a href='https://steamcommunity.com/id/tsaliscepu/'>JUN</a>",
+    "locale": "id",
+    "progress_communityunlocks": "Komunitas Membuka",
+    "progress_bar_title": "Proses: %1%",
+    "progress_locked": "Terkunci",
+    "progress_beetletaur": "Infernal Swineclops",
+    "progress_boarrior": "Grand Forge Boarrior",
+    "progress_book_elemental": "Buku Pemanggil & Tombak Spiral",
+    "progress_lavaarena_armor_hpextraheavy": "Zirah Agung Yang Tabah",
+    "progress_lavaarena_armor_hpdamager": "Zirah Agung Berperasaan",
+    "progress_lavaarena_armor_hprecharger": "Zirah Agung Bersutra",
+    "progress_lavaarena_armor_hppetmastery": "Zirah Agung Berbisik",
+    "progress_lavaarena_heavyblade": "Tepi Pandai Besi",
+    "progress_lavaarena_firebomb": "Ruang Magma Mengkristal",
+    "progress_rhinodrill": "Rhinocebros",
+    "progress_trails": "Boarilla",
+    "progress_lastsync": "Terakhir diperbarui %1",
+    "progress_lastsync_title": "Terakhir diperbarui pada %1",
+    "leaderboards-title": "Tim Teratas",
+    "leaderboards-loading": "Memuat tim teratas..",
+    "leaderboards-noresults": "Tidak ada hasil balasan.. Harap coba lagi nanti",
+    "leaderboards-pos": "%1",
+    "leaderboards-time": "Waktu",
+    "leaderboards-seconds": "d",
+    "leaderboards-deaths": "mati",
+    "leaderboards-showmore": "Tampilkan Lebih Banyak",
+    "leaderboards-showless": "Tampilkan Lebih Sedikit",
+    "date": {
+      "parentLocale": 'en',
+      "months": 'Januari_Februari_Maret_April_Mei_Juni_Juli_Agustus_September_Oktober_November_Desember'.split('_'),
+      "longDateFormat": {
+        LLL: 'MMMM D, YYYY h:mm A',
+      },
+      "relativeTime": {
+        "future": "dalam %s",
+        "past": "%s yang lalu",
+        "s": 'satu detik',
+        "ss": '%d detik',
+        "m": "satu menit",
+        "mm": "%d menit",
+        "h": "satu jam",
+        "hh": "%d jam",
+        "d": "satu hari",
+        "dd": "%d hari",
+        "M": "satu bulan",
+        "MM": "%d bulan",
+        "y": "satu tahun",
+        "yy": "%d tahun"
+      },
+      "ordinal": function(number) {
+        var b = number % 10,
+          output = (~~(number % 100 / 10) === 1) ? 'ke' :
+          (b === 1) ? 'ke' :
+          (b === 2) ? 'ke' :
+          (b === 3) ? 'ke' : 'ke';
+        return "<span class='ordinal'>" + output + "</span>" + number;
+      }
+    },
+    "localization-credits": "Kredit Penerjemah",
+    "localization-help": "Ingin Membantu?",
+    "localization-helptext": "Ingin menambahkan bahasa anda ? Kirim sebuah permintaan tarikan pada %1."
+  },
   "Deutsch": {
     "author": "Deutsch von <a href='https://github.com/jwortmann'>Flexo</a>",
     "locale": "de",
