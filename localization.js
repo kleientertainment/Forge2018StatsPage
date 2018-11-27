@@ -98,6 +98,7 @@ var loc_strings = {
     "leaderboards-deaths": "Tode",
     "leaderboards-showmore": "Zeige mehr",
     "leaderboards-showless": "Zeige weniger",
+    "deathless-title": "Hall of Fame",
     "deathless-subtitle": "Teams who Defeated the Infernal Swineclops with 0 Deaths",
     "deathless-date": "Date",
     "deathless-loading": "Loading...",
