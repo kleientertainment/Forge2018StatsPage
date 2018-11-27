@@ -1,6 +1,9 @@
 # Forge2018StatsPage
 The stats page for the 2018 Don't Starve Together Forge event. Page available here https://forums.kleientertainment.com/forge2018/
 
+## EDIT - Nov 27th
+We've added a new section to the event page, and archived the top-teams section. There are a few new strings that can be translated: *deathless-title, deathless-date, deathless-loading, deathless-noresults, deathless-showmore,* and *deathless-showless*. The *leaderboards-title* text was changed to reflect the archival of that section.
+
 ## How to translate
 All the strings are in the *localization.js* file. Add your own language by **duplicating an entire block from another language** (English, for instance).
 
