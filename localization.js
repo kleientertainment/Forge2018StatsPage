@@ -860,7 +860,7 @@ var loc_strings = {
     "localization-helptext": "Vill du lägga till ditt eget språk? Gör en inkluderingsförfrågan på %1."
   },
   "Türkçe": {
-    "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a>", //hey mom!
+    "author": "Türkçe by <a href='https://forums.kleientertainment.com/profile/478350-atagunz/'>Ata</a> <a href='https://github.com/Teknoist/'>Teknoist</a> ", //hey mom! //hey son, are you winning ?
     "locale": "tr-TR",
     "progress_communityunlocks": "Topluluk Başarıları",
     "progress_bar_title": "İlerleme: %1%",
@@ -875,7 +875,7 @@ var loc_strings = {
     "progress_lavaarena_heavyblade": "Demirci Bıçağı",
     "progress_lavaarena_firebomb": "Kristal Mağma Odası",
     "progress_rhinodrill": "Gergindan Biraderler", //TODO I need to see what this is to verify that the wordplay is fitting
-    "progress_trails": "Yabangorili",
+    "progress_trails": "Yaban Gorili",
     "progress_lastsync": "Son güncelleme %1",
     "progress_lastsync_title": "En son %1 tarihinde güncellendi",
     "leaderboards-title": "Archived Leaderboard",
@@ -887,13 +887,13 @@ var loc_strings = {
     "leaderboards-deaths": "Ölümler",
     "leaderboards-showmore": "Daha Fazla Göster",
     "leaderboards-showless": "Daha Az Göster",
-    "deathless-title": "Hall of Fame",
-    "deathless-subtitle": "Teams who Defeated the Infernal Swineclops with 0 Deaths",
-    "deathless-date": "Date",
-    "deathless-loading": "Loading...",
-    "deathless-noresults": "No results returned. Try again later",
-    "deathless-showmore": "Show More",
-    "deathless-showless": "Show Fewer",
+    "deathless-title": "Onur Listesi",
+    "deathless-subtitle": "Infernal Swineclops'u 0 Ölümle Yenen Takımlar",
+    "deathless-date": "Tarih",
+    "deathless-loading": "Yükleniyor...",
+    "deathless-noresults": "Sonuç bulunamadı. Daha sonra tekrar deneyin",
+    "deathless-showmore": "Daha Fazla Göster",
+    "deathless-showless": "Daha Az Göster",
     "date": {
       "parentLocale": 'en',
       "months": 'Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Ağustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
@@ -926,8 +926,8 @@ var loc_strings = {
       }
     },
     "localization-credits": "Çeviri Ekipleri",
-    "localization-help": "Yardım etmek ister misin?",
-    "localization-helptext": "Kendi dilini eklemek için %1'dan pull request at."
+    "localization-help": "Yardım etmek ister misin ?",
+    "localization-helptext": "Kendi dilini eklemek için %1'dan istekte bulun."
   },
   "中文": {
     "author": "中文由 <a href='https://klei.com/'>Klei提供</a>",
